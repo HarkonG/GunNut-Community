@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+  <!--===== P90 =====-->
+  <!--===== (_____) =====-->
+  <ThingDef ParentName="BaseBullet">
+    <defName>GN_Bullet_PNinety</defName>
+    <label>P90 Bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>13</damageAmountBase>
+      <speed>50</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="GN_BaseHumanMakeableGun">
+    <defName>GN_PNinety</defName>
+    <label>P90 "Herstal"</label>
+    <description>Created in response to NATO requests for a replacement for 9×19mm Parabellum firearms, the P90 was designed as a compact but powerful firearm for vehicle crews, operators of crew-served weapons, support personnel, special forces, and counter-terrorist groups.</description>
+    <graphicData>
+      <texPath>Things/Weapons/GN_PNinety</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+      </li>
+    </comps>
+    <soundInteract>Interact_SMG</soundInteract>
+    <recipeMaker>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite>GN_Research</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>24000</WorkToMake>
+      <Mass>3.2</Mass>
+      <AccuracyTouch>0.87</AccuracyTouch>
+      <AccuracyShort>0.67</AccuracyShort>
+      <AccuracyMedium>0.37</AccuracyMedium>
+      <AccuracyLong>0.22</AccuracyLong>
+      <RangedWeapon_Cooldown>2.20</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>50</Steel>
+      <Chemfuel>10</Chemfuel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GN_Bullet_PNinety</defaultProjectile>
+        <warmupTime>0.05</warmupTime>
+        <range>25</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>11</ticksBetweenBurstShots>
+        <soundCast>GN_Shot_PNinety</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <!--===== KS-23 =====-->
+  <!--===== (_____) =====-->
+  <ThingDef ParentName="BaseBullet">
+    <defName>GN_Bullet_KSTwentyThree</defName>
+    <label>KS-23 blast</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Shotgun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>25</damageAmountBase>
+      <stoppingPower>3</stoppingPower>
+      <armorPenetrationBase>0.14</armorPenetrationBase>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="GN_BaseHumanMakeableGun">
+    <defName>GN_KSTwentyThree</defName>
+    <label>KS-23 "Spetsialniy"</label>
+    <description>Renowned for its large caliber, firing a 23 mm round, is the largest-bore shotgun in use today. The barrel for the KS-23 were made from 23 mm aircraft gun barrels that were rejected due to manufacturing flaws.</description>
+    <graphicData>
+      <texPath>Things/Weapons/GN_KSTwentyThree</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+      </li>
+    </comps>
+    <soundInteract>Interact_Shotgun</soundInteract>
+    <recipeMaker>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>10000</WorkToMake>
+      <Mass>2.3</Mass>
+      <AccuracyTouch>0.90</AccuracyTouch>
+      <AccuracyShort>0.80</AccuracyShort>
+      <AccuracyMedium>0.70</AccuracyMedium>
+      <AccuracyLong>0.50</AccuracyLong>
+      <RangedWeapon_Cooldown>1.20</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>50</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GN_Bullet_KSTwentyThree</defaultProjectile>
+        <warmupTime>0.9</warmupTime>
+        <range>14</range>
+        <soundCast>GN_Shot_KSTwentyThree</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>Gun</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+</Defs>

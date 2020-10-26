@@ -42,7 +42,7 @@
         <graphicData>
             <texPath>Things/Weapons/GN_ATFour</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
+        </graphicData>        
         <soundInteract>Interact_Rifle</soundInteract>
         <statBases>
             <MarketValue>35.72</MarketValue>
@@ -166,6 +166,6 @@
         <products>
             <GN_ATFour>5</GN_ATFour>
         </products>
-        <researchPrerequisite>GN_Research</researchPrerequisite>
+        <researchPrerequisite>CE_AdvancedLaunchers</researchPrerequisite>
     </RecipeDef>
 </Defs>
