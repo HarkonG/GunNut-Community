@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Gun Nut - Chapter #1</name>
+	<author>Harkon</author>
+	<url>https://github.com/HarkonG/GunNut-Chapter-1</url>
+	<packageId>Harkon.GunNut.Community</packageId>
+	<supportedVersions>
+		<li>1.2</li>
+		<li>1.1</li>
+		<li>1.0</li>
+	</supportedVersions>
+	<description>
+	Gun Nut is a mod that focuses on giving the player the ultimate upgrades for their industrial era weapons. This mod is intended to be played with vanilla + vanilla weapons expanded or combat extended + combat extended guns since it offers a direct upgrade to regular weapons.
+	</description>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>XeoNovaDan.ProperShotguns</li>
+		<li>CETeam.CombatExtended</li>
+		<li>VanillaExpanded.VWE</li>
+	</loadAfter>
+</ModMetaData>

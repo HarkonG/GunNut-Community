@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!--===== SR-25 =====-->
+    <!--===== A semi automatic sniper =====-->
+    <ThingDef ParentName="BaseBullet">
+        <defName>GN_Bullet_SRTwentyFive</defName>
+        <label>SR-25 bullet</label>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_Small</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>18</damageAmountBase>
+            <stoppingPower>1.5</stoppingPower>
+            <speed>100</speed>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="GN2_BaseHumanMakeableGun">
+        <defName>GN_SRTwentyFive</defName>
+        <label>SR-25 "M110"</label>
+        <description>The SR-25 is a designated marksman rifle designed by Eugene Stoner. This variant, the M110, is chambered in 7.62x51 NATO and includes a small bipod, 20 round mag, a long suppresor and a precision scope.</description>
+        <graphicData>
+            <texPath>Things/Weapons/GN_SRTwentyFive</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1.1</drawSize>
+        </graphicData>
+        <equippedAngleOffset>45</equippedAngleOffset>
+        <comps>
+            <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+                <eastOffset>(0.15,0,0)</eastOffset>
+                <westOffset>(-0.15,0,0)</westOffset>
+            </li>
+        </comps>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <recipeMaker>
+            <recipeUsers>
+                <li>TableMachining</li>
+            </recipeUsers>
+            <researchPrerequisite>GN_Research</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>7</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <statBases>
+            <WorkToMake>45000</WorkToMake>
+            <Mass>4</Mass>
+            <AccuracyTouch>0.45</AccuracyTouch>
+            <AccuracyShort>0.68</AccuracyShort>
+            <AccuracyMedium>0.82</AccuracyMedium>
+            <AccuracyLong>0.86</AccuracyLong>
+            <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>
+            <Steel>65</Steel>
+            <Chemfuel>10</Chemfuel>
+            <ComponentIndustrial>8</ComponentIndustrial>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>GN_Bullet_SRTwentyFive</defaultProjectile>
+                <warmupTime>2.8</warmupTime>
+                <range>44</range>
+                <soundCast>GN_Shot_SRTwentyFive</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+
+    <!--===== Galil ACE =====-->
+    <!--===== (__________) =====-->
+    <ThingDef ParentName="BaseBullet">
+        <defName>GN_Bullet_GalilACE</defName>
+        <label>Galil ACE bullet</label>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_Small</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>12</damageAmountBase>
+            <speed>60</speed>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="GN2_BaseHumanMakeableGun">
+        <defName>GN_GalilACE</defName>
+        <label>Galil ACE "Indumil"</label>
+        <description>One of the last iterations of the famous Galil rifle, the ACE uses modern materials to improve the preformance of its predecessor in almost every way. This Galil comes with a red dot sight, a foregrip and is chambered in 7.62x51 NATO.</description>
+        <graphicData>
+            <texPath>Things/Weapons/GN_GalilACE</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1.0</drawSize>
+        </graphicData>
+        <equippedAngleOffset>45</equippedAngleOffset>
+        <comps>
+            <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+                <!-- X / Z / Y -->
+                <eastOffset>(0.05,0,0)</eastOffset>
+                <westOffset>(-0.05,0,0)</westOffset>
+            </li>
+        </comps>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <recipeMaker>
+            <recipeUsers>
+                <li>TableMachining</li>
+            </recipeUsers>
+            <researchPrerequisite>GN_Research</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <statBases>
+            <WorkToMake>38000</WorkToMake>
+            <Mass>3.0</Mass>
+            <AccuracyTouch>0.70</AccuracyTouch>
+            <AccuracyShort>0.60</AccuracyShort>
+            <AccuracyMedium>0.60</AccuracyMedium>
+            <AccuracyLong>0.40</AccuracyLong>
+            <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>
+            <Steel>60</Steel>
+            <Chemfuel>10</Chemfuel>
+            <ComponentIndustrial>6</ComponentIndustrial>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>GN_Bullet_GalilACE</defaultProjectile>
+                <warmupTime>1</warmupTime>
+                <range>28</range>
+                <burstShotCount>3</burstShotCount>
+                <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+                <soundCast>GN_Shot_GalilACE</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>10</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>10</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+
+    <!--===== StG 44 =====-->
+    <!--===== (__________) =====-->
+    <ThingDef ParentName="BaseBullet">
+        <defName>GN_Bullet_StGFortyFour</defName>
+        <label>StG 44 bullet</label>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_Small</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>12</damageAmountBase>
+            <speed>70</speed>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="GN2_BaseHumanMakeableGun">
+        <defName>GN_StGFortyFour</defName>
+        <label>StG 44 "Kurz"</label>
+        <description>The StG 44 was the first successful assault rifle, with features including a relatively short cartridge, controllable automatic fire, a more compact design than a battle rifle with a quicker rate of fire, and intended for hitting targets within a few hundred metres.</description>
+        <graphicData>
+            <texPath>Things/Weapons/GN_StGFortyFour</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1.0</drawSize>
+        </graphicData>
+        <equippedAngleOffset>45</equippedAngleOffset>
+        <comps>
+            <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+            </li>
+        </comps>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <recipeMaker>
+            <recipeUsers>
+                <li>TableMachining</li>
+            </recipeUsers>
+            <researchPrerequisite>GasOperation</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>5</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <statBases>
+            <WorkToMake>20000</WorkToMake>
+            <Mass>4.6</Mass>
+            <AccuracyTouch>0.65</AccuracyTouch>
+            <AccuracyShort>0.75</AccuracyShort>
+            <AccuracyMedium>0.70</AccuracyMedium>
+            <AccuracyLong>0.50</AccuracyLong>
+            <RangedWeapon_Cooldown>1.00</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>Gun</li>
+            <li>IndustrialGunAdvanced</li>
+        </weaponTags>
+        <costList>
+            <Steel>55</Steel>
+            <ComponentIndustrial>5</ComponentIndustrial>
+            <WoodLog>5</WoodLog>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>GN_Bullet_StGFortyFour</defaultProjectile>
+                <warmupTime>1.6</warmupTime>
+                <range>33</range>
+                <burstShotCount>4</burstShotCount>
+                <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+                <soundCast>GN_Shot_StGFortyFour</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>10</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+
+    <!--===== MG3 =====-->
+    <!--===== (__________) =====-->
+    <ThingDef ParentName="BaseBullet">
+        <defName>GN_Bullet_MGThree</defName>
+        <label>MG3 bullet</label>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_Small</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>12</damageAmountBase>
+            <speed>60</speed>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="GN2_BaseHumanMakeableGun">
+        <defName>GN_MGThree</defName>
+        <label>MG 3</label>
+        <description>The MG3 is a German general-purpose machine gun chambered for the 7.62×51mm NATO cartridge. The weapon's design is derived from the World War II era MG 42 universal machine gun that fired the 7.92×57mm Mauser round.</description>
+        <graphicData>
+            <texPath>Things/Weapons/GN_MGThree</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1.0</drawSize>
+        </graphicData>
+        <equippedAngleOffset>45</equippedAngleOffset>
+        <comps>
+            <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+            </li>
+        </comps>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <recipeMaker>
+            <recipeUsers>
+                <li>TableMachining</li>
+            </recipeUsers>
+            <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>5</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <statBases>
+            <WorkToMake>20000</WorkToMake>
+            <Mass>12</Mass>
+            <AccuracyTouch>0.40</AccuracyTouch>
+            <AccuracyShort>0.55</AccuracyShort>
+            <AccuracyMedium>0.65</AccuracyMedium>
+            <AccuracyLong>0.45</AccuracyLong>
+            <RangedWeapon_Cooldown>1.00</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>IndustrialGunAdvanced</li>
+        </weaponTags>
+        <costList>
+            <Steel>90</Steel>
+            <Chemfuel>5</Chemfuel>
+            <ComponentIndustrial>7</ComponentIndustrial>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>GN_Bullet_MGThree</defaultProjectile>
+                <warmupTime>2.1</warmupTime>
+                <range>42</range>
+                <burstShotCount>10</burstShotCount>
+                <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+                <soundCast>GN_Shot_MGThree</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>10</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+</Defs>
