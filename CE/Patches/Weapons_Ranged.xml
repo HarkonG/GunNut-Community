@@ -104,7 +104,7 @@
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                     <defName>GN_KSTwentyThree</defName>
                     <statBases>
-                        <Mass>2.00</Mass>
+                        <Mass>3.2</Mass>
                         <RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
                         <ShotSpread>0.14</ShotSpread>
                         <SwayFactor>1.20</SwayFactor>

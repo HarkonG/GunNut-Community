@@ -37,12 +37,12 @@
     <!-- ==================== AT-4 ==================== -->
     <ThingDef ParentName="BaseGun_CE">
         <defName>GN_ATFour</defName>
-        <label>AT-4 "Saab"</label>
+        <label>AT-4</label>
         <description>The AT-4 is a single-shot recoilless smoothbore anti-tank weapon made in Sweden. The launcher and projectile are manufactured prepacked and issued as a single unit of ammunition, with the launcher discarded after a single use.</description>
         <graphicData>
             <texPath>Things/Weapons/GN_ATFour</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>        
+        </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
         <statBases>
             <MarketValue>35.72</MarketValue>

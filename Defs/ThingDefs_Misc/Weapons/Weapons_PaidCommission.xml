@@ -21,7 +21,7 @@
 
   <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_SRTwentyFive</defName>
-    <label>SR-25 "M110"</label>
+    <label>SR-25</label>
     <description>The SR-25 is a designated marksman rifle designed by Eugene Stoner. This variant, the M110, is chambered in 7.62x51 NATO and includes a small bipod, 20 round mag, a long suppresor and a precision scope.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_SRTwentyFive</texPath>
@@ -110,7 +110,7 @@
 
   <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_GalilACE</defName>
-    <label>Galil ACE "Indumil"</label>
+    <label>Galil ACE</label>
     <description>One of the last iterations of the famous Galil rifle, the ACE uses modern materials to improve the preformance of its predecessor in almost every way. This Galil comes with a red dot sight, a foregrip and is chambered in 7.62x51 NATO.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_GalilACE</texPath>
@@ -202,7 +202,7 @@
 
   <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_StGFortyFour</defName>
-    <label>StG 44 "Kurz"</label>
+    <label>StG 44</label>
     <description>The StG 44 was the first successful assault rifle, with features including a relatively short cartridge, controllable automatic fire, a more compact design than a battle rifle with a quicker rate of fire, and intended for hitting targets within a few hundred metres.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_StGFortyFour</texPath>
@@ -388,7 +388,7 @@
 
   <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_GlockFLUX</defName>
-    <label>G-98 "FLUX"</label>
+    <label>G-98</label>
     <description>The G-98 is a heavily modified spacer gun based on the Glock weapon system, capable of shooting charged ammunition at a high fire rate. Most of the industrial components have been replaced with spacer tech components.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_GlockFLUX</texPath>
@@ -419,8 +419,9 @@
       <AccuracyLong>0.20</AccuracyLong>
       <RangedWeapon_Cooldown>1.00</RangedWeapon_Cooldown>
     </statBases>
-     <weaponTags Inherit="False">
+    <weaponTags Inherit="False">
       <li>SpacerGun</li>
+      <li>CE_OneHandedWeapon</li>
     </weaponTags>
     <costList>
       <Plasteel>40</Plasteel>
@@ -440,7 +441,7 @@
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
-    </verbs>    
+    </verbs>
     <tools>
       <li>
         <label>barrel</label>

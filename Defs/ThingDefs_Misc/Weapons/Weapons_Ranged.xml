@@ -20,7 +20,7 @@
 
   <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_PNinety</defName>
-    <label>P90 "Herstal"</label>
+    <label>P90</label>
     <description>Created in response to NATO requests for a replacement for 9×19mm Parabellum firearms, the P90 was designed as a compact but powerful firearm for vehicle crews, operators of crew-served weapons, support personnel, special forces, and counter-terrorist groups.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_PNinety</texPath>
@@ -111,7 +111,7 @@
 
   <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_KSTwentyThree</defName>
-    <label>KS-23 "Spetsialniy"</label>
+    <label>KS-23</label>
     <description>Renowned for its large caliber, firing a 23 mm round, is the largest-bore shotgun in use today. The barrel for the KS-23 were made from 23 mm aircraft gun barrels that were rejected due to manufacturing flaws.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_KSTwentyThree</texPath>
@@ -135,7 +135,7 @@
     </recipeMaker>
     <statBases>
       <WorkToMake>10000</WorkToMake>
-      <Mass>2.3</Mass>
+      <Mass>3</Mass>
       <AccuracyTouch>0.90</AccuracyTouch>
       <AccuracyShort>0.80</AccuracyShort>
       <AccuracyMedium>0.70</AccuracyMedium>
