@@ -16,13 +16,13 @@ namespace GunNutCommunity
 		public bool enable_GNCP_StG44 = true;
 		public bool enable_GNCP_MG3 = true;
 		public bool enable_GNCP_G98 = true;
-		//public bool enable_GNCP_M16A4 = true;
-		//public bool enable_GNCP_M2HB = true;
-		//public bool enable_GNCP_GreyHawk = true;
-		//public bool enable_GNCP_AA12 = true;
-		//public bool enable_GNCP_M202 = true;
+        public bool enable_GNCP_M16A4 = true;
+        public bool enable_GNCP_M2HB = true;
+        public bool enable_GNCP_GreyHawk = true;
+        //public bool enable_GNCP_AA12 = true;
+        //public bool enable_GNCP_M202 = true;
 
-		public bool enable_GNCP_nicknames = true;
+        public bool enable_GNCP_nicknames = true;
 
 		public void ResetSavedDefs()
 		{
@@ -34,13 +34,13 @@ namespace GunNutCommunity
 			this.enable_GNCP_StG44 = true;
 			this.enable_GNCP_MG3 = true;		
 			this.enable_GNCP_G98 = true;
-			//this.enable_GNCP_M16A4 = true;
-			//this.enable_GNCP_M2HB = true;
-			//this.enable_GNCP_GreyHawk = true;
-			//this.enable_GNCP_AA12 = true;
-			//this.enable_GNCP_M202 = true;
+            this.enable_GNCP_M16A4 = true;
+            this.enable_GNCP_M2HB = true;
+            this.enable_GNCP_GreyHawk = true;
+            //this.enable_GNCP_AA12 = true;
+            //this.enable_GNCP_M202 = true;
 
-			this.enable_GNCP_nicknames = true;
+            this.enable_GNCP_nicknames = true;
 		}
 
 		/// <summary>
@@ -57,13 +57,13 @@ namespace GunNutCommunity
 			Scribe_Values.Look<bool>(ref this.enable_GNCP_StG44, "enable_GNCP_StG44", true, false);
 			Scribe_Values.Look<bool>(ref this.enable_GNCP_MG3, "enable_GNCP_MG3", true, false);			
 			Scribe_Values.Look<bool>(ref this.enable_GNCP_G98, "enable_GNCP_G98", true, false);
-			//Scribe_Values.Look<bool>(ref this.enable_GNCP_M16A4, "enable_GNCP_M16A4", true, false);			
-			//Scribe_Values.Look<bool>(ref this.enable_GNCP_M2HB, "enable_GNCP_M2HB", true, false);
-			//Scribe_Values.Look<bool>(ref this.enable_GNCP_GreyHawk, "enable_GNCP_GreyHawk", true, false);
-			//Scribe_Values.Look<bool>(ref this.enable_GNCP_AA12, "enable_GNCP_AA12", true, false);
-			//Scribe_Values.Look<bool>(ref this.enable_GNCP_M202, "enable_GNCP_M202", true, false);
+            Scribe_Values.Look<bool>(ref this.enable_GNCP_M16A4, "enable_GNCP_M16A4", true, false);
+            Scribe_Values.Look<bool>(ref this.enable_GNCP_M2HB, "enable_GNCP_M2HB", true, false);
+            Scribe_Values.Look<bool>(ref this.enable_GNCP_GreyHawk, "enable_GNCP_GreyHawk", true, false);
+            //Scribe_Values.Look<bool>(ref this.enable_GNCP_AA12, "enable_GNCP_AA12", true, false);
+            //Scribe_Values.Look<bool>(ref this.enable_GNCP_M202, "enable_GNCP_M202", true, false);
 
-			Scribe_Values.Look<bool>(ref this.enable_GNCP_nicknames, "enable_GNCP_nicknames", true, false);
+            Scribe_Values.Look<bool>(ref this.enable_GNCP_nicknames, "enable_GNCP_nicknames", true, false);
 		}
 
 		public void DoSettingsWindowContents(Rect settingsCanvas)
@@ -92,12 +92,12 @@ namespace GunNutCommunity
 			list.CheckboxLabeled("enable_GNCP_StG44".Translate(), ref this.enable_GNCP_StG44, null);
 			list.CheckboxLabeled("enable_GNCP_MG3".Translate(), ref this.enable_GNCP_MG3, null);			
 			list.CheckboxLabeled("enable_GNCP_G98".Translate(), ref this.enable_GNCP_G98, null);
-			//list.CheckboxLabeled("enable_GNCP_M16A4".Translate(), ref this.enable_GNCP_M16A4, null);			
-			//list.CheckboxLabeled("enable_GNCP_M2HB".Translate(), ref this.enable_GNCP_M2HB, null);
-			//list.CheckboxLabeled("enable_GNCP_GreyHawk".Translate(), ref this.enable_GNCP_GreyHawk, null);
-			//list.CheckboxLabeled("enable_GNCP_AA12".Translate(), ref this.enable_GNCP_AA12, null);
-			//list.CheckboxLabeled("enable_GNCP_M202".Translate(), ref this.enable_GNCP_M202, null);
-			list.Gap();
+            list.CheckboxLabeled("enable_GNCP_M16A4".Translate(), ref this.enable_GNCP_M16A4, null);
+            list.CheckboxLabeled("enable_GNCP_M2HB".Translate(), ref this.enable_GNCP_M2HB, null);
+            list.CheckboxLabeled("enable_GNCP_GreyHawk".Translate(), ref this.enable_GNCP_GreyHawk, null);
+            //list.CheckboxLabeled("enable_GNCP_AA12".Translate(), ref this.enable_GNCP_AA12, null);
+            //list.CheckboxLabeled("enable_GNCP_M202".Translate(), ref this.enable_GNCP_M202, null);
+            list.Gap();
 			list.Gap();
 			list.Gap();
 			list.Gap();

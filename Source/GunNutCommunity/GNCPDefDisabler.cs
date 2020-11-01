@@ -65,43 +65,43 @@ namespace GunNutCommunity
 			{
 				GNCPDefDisabler.DisableDef(ThingDef.Named("GN_GlockFLUX"));
 				GNCPDefDisabler.DisableDef(ThingDef.Named("GN_Bullet_GlockFLUX"));
-			}		
+			}
 
-			//bool value10 = !GNCPMod.settings.enable_GNCP_M16A4;
-			//if (value10)
-			//{
-			//	GNCPDefDisabler.DisableDef(ThingDef.Named("GN_M16A4"));
-			//	GNCPDefDisabler.DisableDef(ThingDef.Named("GN_Bullet_M16A4"));
-			//}
+            bool value10 = !GNCPMod.settings.enable_GNCP_M16A4;
+            if (value10)
+            {
+                GNCPDefDisabler.DisableDef(ThingDef.Named("GN_M16AFour"));
+                GNCPDefDisabler.DisableDef(ThingDef.Named("GN_Bullet_M16AFour"));
+            }
 
-			//bool value11 = !GNCPMod.settings.enable_GNCP_M2HB;
-			//if (value11)
-			//{
-			//	GNCPDefDisabler.DisableDef(ThingDef.Named("GN_M2HB"));
-			//	GNCPDefDisabler.DisableDef(ThingDef.Named("GN_Bullet_M2HB"));
-			//}
+            bool value11 = !GNCPMod.settings.enable_GNCP_M2HB;
+            if (value11)
+            {
+                GNCPDefDisabler.DisableDef(ThingDef.Named("GN_M2HB"));
+                GNCPDefDisabler.DisableDef(ThingDef.Named("GN_Bullet_M2HB"));
+            }
 
-			//bool value12 = !GNCPMod.settings.enable_GNCP_GreyHawk;
-			//if (value12)
-			//{
-			//	GNCPDefDisabler.DisableDef(ThingDef.Named("GN_GreyHawk"));
-			//	GNCPDefDisabler.DisableDef(ThingDef.Named("GN_Bullet_GreyHawk"));
-			//}	
+            bool value12 = !GNCPMod.settings.enable_GNCP_GreyHawk;
+            if (value12)
+            {
+                GNCPDefDisabler.DisableDef(ThingDef.Named("GN_GreyHawk"));
+                GNCPDefDisabler.DisableDef(ThingDef.Named("GN_Bullet_GreyHawk"));
+            }
 
-			//bool value13 = !GNCPMod.settings.enable_GNCP_AA12;
-			//if (value13)
-			//{
-			//	GNCPDefDisabler.DisableDef(ThingDef.Named("GN_AATwelve"));
-			//	GNCPDefDisabler.DisableDef(ThingDef.Named("GN_Bullet_AATwelve"));
-			//}
+            //bool value13 = !GNCPMod.settings.enable_GNCP_AA12;
+            //if (value13)
+            //{
+            //	GNCPDefDisabler.DisableDef(ThingDef.Named("GN_AATwelve"));
+            //	GNCPDefDisabler.DisableDef(ThingDef.Named("GN_Bullet_AATwelve"));
+            //}
 
-			//bool value14 = !GNCPMod.settings.enable_GNCP_M202;
-			//if (value14)
-			//{
-			//	GNCPDefDisabler.DisableDef(ThingDef.Named("GN_M202F"));
-			//	GNCPDefDisabler.DisableDef(ThingDef.Named("GN_Bullet_M202F"));
-			//}
-		}
+            //bool value14 = !GNCPMod.settings.enable_GNCP_M202;
+            //if (value14)
+            //{
+            //	GNCPDefDisabler.DisableDef(ThingDef.Named("GN_M202F"));
+            //	GNCPDefDisabler.DisableDef(ThingDef.Named("GN_Bullet_M202F"));
+            //}
+        }
 
 		public static void DisableDef(ThingDef def)
 		{

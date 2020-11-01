@@ -473,7 +473,7 @@
 
   <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_M16AFour</defName>
-    <label>M16A4 "Terminal Boot"</label>
+    <label>M16A4</label>
     <description>The M16 entered US military service in 1964 and was first used during the Vietnam War. The M16A4 is the fourth generation of this famous assault rifle which is to this day the most produced 5.56 firearm in the world.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_M16AFour</texPath>
@@ -566,7 +566,7 @@
 
   <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_M2HB</defName>
-    <label>M2HB "Browning"</label>
+    <label>M2HB</label>
     <description>If ain't broke don't fix it, the 50.Cal M2 Browning machine gun has been used since 1930 to this day and has seen extensive use as vehicle weapon and aircraft armament during that time.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_M2HB</texPath>
@@ -662,7 +662,7 @@
 
   <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_GreyHawk</defName>
-    <label>GreyHawk 55 "Fairview"</label>
+    <label>GreyHawk 55</label>
     <description>Shooting a big round, the Greyhawk, is a precise single action revolver capable of hitting targets at a longer distance than your regular handgun. This one comes with a long range attached, making it more precise at longer distances, but somewhat heavier and bulkier than other revolvers of its kind.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_GreyHawk</texPath>

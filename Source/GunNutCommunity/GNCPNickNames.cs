@@ -22,9 +22,9 @@ namespace GunNutCommunity
 				GNCPNickNames.ChangeLabel(ThingDef.Named("GN_StGFortyFour"), "Label_GNCP_StG44_NN");
 				GNCPNickNames.ChangeLabel(ThingDef.Named("GN_MGThree"), "Label_GNCP_MG3_NN");
 				GNCPNickNames.ChangeLabel(ThingDef.Named("GN_GlockFLUX"), "Label_GNCP_G98_NN");
-				//GNCPNickNames.ChangeLabel(ThingDef.Named("GN_M16A4"), "Label_GNCP_M16A4_NN");
-				//GNCPNickNames.ChangeLabel(ThingDef.Named("GN_M2HB"), "Label_GNCP_M2HB_NN");
-				//GNCPNickNames.ChangeLabel(ThingDef.Named("GN_GreyHawk"), "Label_GNCP_GreyHawk_NN");
+				GNCPNickNames.ChangeLabel(ThingDef.Named("GN_M16AFour"), "Label_GNCP_M16A4_NN");
+				GNCPNickNames.ChangeLabel(ThingDef.Named("GN_M2HB"), "Label_GNCP_M2HB_NN");
+				GNCPNickNames.ChangeLabel(ThingDef.Named("GN_GreyHawk"), "Label_GNCP_GreyHawk_NN");
 				//GNCPNickNames.ChangeLabel(ThingDef.Named("GN_AATwelve"), "Label_GNCP_AA12_NN");
 				//GNCPNickNames.ChangeLabel(ThingDef.Named("GN_M202F"), "Label_GNCP_M202_NN");
 			}
