@@ -16,8 +16,8 @@
     <enable_GNCP_M16A4>Enable M16A4 "Terminal Boot"</enable_GNCP_M16A4>
     <enable_GNCP_M2HB>Enable M2HB "Browning"</enable_GNCP_M2HB>
     <enable_GNCP_GreyHawk>Enable GreyHawk 55 "Fairview"</enable_GNCP_GreyHawk>
-    <enable_GNCP_AA12>Enable AA 12</enable_GNCP_AA12>
-    <enable_GNCP_M202>Enable M202 Flash</enable_GNCP_M202>
+    <enable_GNCP_AA12>Enable AA-12 "JAK"</enable_GNCP_AA12>
+    <enable_GNCP_M202>Enable M202A1 "Flash"</enable_GNCP_M202>
 
     <settings_GNCP_EnableNickNameHeader>Nicknames</settings_GNCP_EnableNickNameHeader>
     <settings_GNCP_EnableNickNameDescription>- This setting removes or shows the nicknames from weapons names. Enabled: ASh-12 "Bear" Disabled: ASh-12.</settings_GNCP_EnableNickNameDescription>
@@ -35,8 +35,8 @@
     <Label_GNCP_M16A4_NN>M16A4 "Terminal Boot"</Label_GNCP_M16A4_NN>
     <Label_GNCP_M2HB_NN>M2HB "Browning"</Label_GNCP_M2HB_NN>
     <Label_GNCP_GreyHawk_NN>GreyHawk 55 "Fairview"</Label_GNCP_GreyHawk_NN>
-    <Label_GNCP_AA12_NN>AA 12</Label_GNCP_AA12_NN>
-    <enable_GNCP_M202>M202 Flash</enable_GNCP_M202>
+    <Label_GNCP_AA12_NN>AA-12 "JAK"</Label_GNCP_AA12_NN>
+    <enable_GNCP_M202>M202A1 "Flash"</enable_GNCP_M202>
 
 
     <settings_GNCP_EndDescription>- Remember that you need to restart for this settings to take place. Because this mod is constantly updating with new guns some of them may take some time to get the setting.</settings_GNCP_EndDescription>

@@ -88,19 +88,19 @@ namespace GunNutCommunity
                 GNCPDefDisabler.DisableDef(ThingDef.Named("GN_Bullet_GreyHawk"));
             }
 
-            //bool value13 = !GNCPMod.settings.enable_GNCP_AA12;
-            //if (value13)
-            //{
-            //	GNCPDefDisabler.DisableDef(ThingDef.Named("GN_AATwelve"));
-            //	GNCPDefDisabler.DisableDef(ThingDef.Named("GN_Bullet_AATwelve"));
-            //}
+            bool value13 = !GNCPMod.settings.enable_GNCP_AA12;
+            if (value13)
+            {
+                GNCPDefDisabler.DisableDef(ThingDef.Named("GN_AATwelve"));
+                GNCPDefDisabler.DisableDef(ThingDef.Named("GN_Bullet_AATwelve"));
+            }
 
-            //bool value14 = !GNCPMod.settings.enable_GNCP_M202;
-            //if (value14)
-            //{
-            //	GNCPDefDisabler.DisableDef(ThingDef.Named("GN_M202F"));
-            //	GNCPDefDisabler.DisableDef(ThingDef.Named("GN_Bullet_M202F"));
-            //}
+            bool value14 = !GNCPMod.settings.enable_GNCP_M202;
+            if (value14)
+            {
+                GNCPDefDisabler.DisableDef(ThingDef.Named("GN_M202F"));
+                GNCPDefDisabler.DisableDef(ThingDef.Named("GN_Bullet_M202F"));
+            }
         }
 
 		public static void DisableDef(ThingDef def)

@@ -17,6 +17,8 @@
                     defName = "GN_M16AFour" or
                     defName = "GN_M2HB" or
                     defName = "GN_GreyHawk" or
+                    defName = "GN_AATwelve" or
+                    defName = "GN_M202F" or
                     defName = "GN_GalilACE"]/tools
                     </xpath>
                     <value>
@@ -416,6 +418,92 @@
                         <li>CE_AI_Pistol</li>
                         <li>CE_OneHandedWeapon</li>
                     </weaponTags>
+                </li>
+
+                <!--===== AA 12 =====-->
+                <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                    <defName>GN_AATwelve</defName>
+                    <statBases>
+                        <Mass>4.0</Mass>
+                        <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+                        <ShotSpread>0.20</ShotSpread>
+                        <SwayFactor>1.30</SwayFactor>
+                        <Bulk>7.0</Bulk>
+                        <SightsEfficiency>1.0</SightsEfficiency>
+                        <WorkToMake>25500</WorkToMake>
+                    </statBases>
+                    <costList>
+                        <Steel>45</Steel>
+                        <ComponentIndustrial>3</ComponentIndustrial>
+                        <Chemfuel>10</Chemfuel>
+                    </costList>
+                    <Properties>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <recoilAmount>2.36</recoilAmount>                       
+                        <hasStandardCommand>true</hasStandardCommand>
+                        <defaultProjectile>Bullet_12Gauge_Buck</defaultProjectile>
+                        <burstShotCount>6</burstShotCount>
+                        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+                        <warmupTime>0.6</warmupTime>
+                        <range>18</range>
+                        <soundCast>GN_Shot_AATwelve</soundCast>
+                        <soundCastTail>GunTail_Heavy</soundCastTail>
+                        <muzzleFlashScale>9</muzzleFlashScale>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>32</magazineSize>
+                        <reloadTime>4</reloadTime>
+                        <ammoSet>AmmoSet_12Gauge</ammoSet>
+                    </AmmoUser>
+                    <FireModes />
+                    <weaponTags>
+                        <li>CE_AI_AssaultWeapon</li>
+                    </weaponTags>
+                </li>
+
+                 <!-- ========== M202A1 ========== -->
+                <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                    <defName>GN_M202F</defName>
+                    <statBases>
+                        <WorkToMake>28500</WorkToMake>
+                        <Mass>7</Mass>
+                        <Bulk>12.30</Bulk>
+                        <SwayFactor>2.58</SwayFactor>
+                        <ShotSpread>0.2</ShotSpread>
+                        <SightsEfficiency>1.0</SightsEfficiency>
+                        <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+                    </statBases>
+                    <costList>
+                        <Steel>90</Steel>
+                        <ComponentIndustrial>4</ComponentIndustrial>
+                        <Chemfuel>20</Chemfuel>
+                    </costList>
+                    <Properties>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>True</hasStandardCommand>
+                        <defaultProjectile>Bullet_M74_Incendiary</defaultProjectile>
+                        <warmupTime>2</warmupTime>
+                        <range>55</range>                        
+                        <minRange>6</minRange>
+                        <soundCast>GN_Shot_M202F</soundCast>
+                        <soundCastTail>GunTail_Heavy</soundCastTail>
+                        <muzzleFlashScale>14</muzzleFlashScale>
+                        <targetParams>
+                            <canTargetLocations>true</canTargetLocations>
+                        </targetParams>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>4</magazineSize>
+                        <reloadTime>8.5</reloadTime>
+                        <ammoSet>AmmoSet_M74</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aiAimMode>AimedShot</aiAimMode>
+                    </FireModes>
+                    <weaponTags>
+                        <li>GunHeavy</li>
+                    </weaponTags>
+                    <researchPrerequisite>CE_AdvancedLaunchers</researchPrerequisite>
                 </li>
             </operations>
         </match>
