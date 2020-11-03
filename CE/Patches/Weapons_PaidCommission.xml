@@ -19,6 +19,7 @@
                     defName = "GN_GreyHawk" or
                     defName = "GN_AATwelve" or
                     defName = "GN_M202F" or
+                    defName = "GN_PulseRifle" or
                     defName = "GN_GalilACE"]/tools
                     </xpath>
                     <value>
@@ -505,6 +506,52 @@
                     </weaponTags>
                     <researchPrerequisite>CE_AdvancedLaunchers</researchPrerequisite>
                 </li>
+
+                <!--===== Pulse Rifle =====-->
+                <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                    <defName>GN_PulseRifle</defName>
+                    <statBases>
+                        <Mass>3.0</Mass>
+                        <RangedWeapon_Cooldown>0.3</RangedWeapon_Cooldown>
+                        <SightsEfficiency>1.1</SightsEfficiency>
+                        <ShotSpread>0.10</ShotSpread>
+                        <SwayFactor>1.10</SwayFactor>
+                        <Bulk>8.90</Bulk>
+                        <WorkToMake>32000</WorkToMake>
+                    </statBases>
+                    <costList>
+                        <Steel>55</Steel>
+                        <ComponentIndustrial>5</ComponentIndustrial>
+                        <Chemfuel>10</Chemfuel>
+                    </costList>
+                    <Properties>
+                        <recoilAmount>1.5</recoilAmount>
+                        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                        <hasStandardCommand>true</hasStandardCommand>
+                        <defaultProjectile>Bullet_10x24mmCaseless_FMJ</defaultProjectile>
+                        <warmupTime>1.1</warmupTime>
+                        <range>47</range>
+                        <burstShotCount>10</burstShotCount>
+                        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+                        <soundCast>GN_Shot_PulseRifle</soundCast>
+                        <soundCastTail>GunTail_Medium</soundCastTail>
+                        <muzzleFlashScale>9</muzzleFlashScale>
+                    </Properties>
+                    <AmmoUser>
+                        <magazineSize>99</magazineSize>
+                        <reloadTime>4</reloadTime>
+                        <ammoSet>AmmoSet_10x24mmCaseless</ammoSet>
+                    </AmmoUser>
+                    <FireModes>
+                        <aimedBurstShotCount>3</aimedBurstShotCount>
+                        <aiUseBurstMode>TRUE</aiUseBurstMode>
+                        <aiAimMode>AimedShot</aiAimMode>
+                    </FireModes>
+                    <weaponTags>
+                        <li>SpacerGun</li>
+                    </weaponTags>
+                </li>
+
             </operations>
         </match>
     </Operation>

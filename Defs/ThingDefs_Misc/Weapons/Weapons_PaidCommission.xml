@@ -860,7 +860,7 @@
       <texPath>Things/Weapons/GN_M202F</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.0</drawSize>
-    </graphicData>    
+    </graphicData>
     <comps>
       <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
         <!-- X / Z / Y -->
@@ -926,6 +926,95 @@
         </capacities>
         <power>11.7</power>
         <cooldownTime>2.6</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <!--===== Pulse Rifle =====-->
+  <!--===== (________)  =====-->
+  <ThingDef ParentName="BaseBullet">
+    <defName>GN_Bullet_PulseRifle</defName>
+    <label>M4A1 Bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>11</damageAmountBase>
+      <speed>70</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="GN_BaseHumanMakeableGun">
+    <defName>GN_PulseRifle</defName>
+    <label>USCM M41A "Pulse Rifle"</label>
+    <description>_</description>
+    <graphicData>
+      <texPath>Things/Weapons/GN_PulseRifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+      </li>
+    </comps>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <recipeMaker>
+      <researchPrerequisite>GN_Research</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>50000</WorkToMake>
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.70</AccuracyTouch>
+      <AccuracyShort>0.70</AccuracyShort>
+      <AccuracyMedium>0.60</AccuracyMedium>
+      <AccuracyLong>0.50</AccuracyLong>
+      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>65</Steel>
+      <Chemfuel>20</Chemfuel>
+      <ComponentIndustrial>7</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GN_Bullet_PulseRifle</defaultProjectile>
+        <warmupTime>1.0</warmupTime>
+        <range>27</range>
+        <burstShotCount>4</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <soundCast>GN_Shot_PulseRifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags Inherit = "False">
+      <li>SpacerGun</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
       </li>
     </tools>
   </ThingDef>
