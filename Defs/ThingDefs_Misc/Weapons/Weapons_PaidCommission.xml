@@ -22,7 +22,7 @@
   <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_SRTwentyFive</defName>
     <label>SR-25</label>
-    <description>The SR-25 is a designated marksman rifle designed by Eugene Stoner. This variant, the M110, is chambered in 7.62x51 NATO and includes a small bipod, 20 round mag, a long suppresor and a precision scope.</description>
+    <description>Designed for rapid follow-up shots, this rifle is slightly less accurate than Bolt Action Sniper designs, but the addition of a suppressor ensures this rifle found a place in the armories of anyone who wanted to be a little more discrete.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_SRTwentyFive</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -111,7 +111,7 @@
   <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_GalilACE</defName>
     <label>Galil ACE</label>
-    <description>One of the last iterations of the famous Galil rifle, the ACE uses modern materials to improve the preformance of its predecessor in almost every way. This Galil comes with a red dot sight, a foregrip and is chambered in 7.62x51 NATO.</description>
+    <description>A departure from the bulky but sturdy construction of other Battle Rifles, this rifle is easier to use and more mobile, but sacrifices some of its range and accuracy. The larger caliber round is a large benefit for mid-range combat.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_GalilACE</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -203,7 +203,7 @@
   <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_StGFortyFour</defName>
     <label>StG 44</label>
-    <description>The StG 44 was the first successful assault rifle, with features including a relatively short cartridge, controllable automatic fire, a more compact design than a battle rifle with a quicker rate of fire, and intended for hitting targets within a few hundred metres.</description>
+    <description>Based off of one of the first assault rifles Humanity ever produced, most examples you find in the rim are reproductions from glitter world historians, as the design did not have a large original production run.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_StGFortyFour</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -281,7 +281,7 @@
   <!--===== (__________) =====-->
   <ThingDef ParentName="BaseBullet">
     <defName>GN_Bullet_MGThree</defName>
-    <label>MG3 bullet</label>
+    <label>MG 3 bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -296,7 +296,7 @@
   <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_MGThree</defName>
     <label>MG 3</label>
-    <description>The MG3 is a German general-purpose machine gun chambered for the 7.62×51mm NATO cartridge. The weapon's design is derived from the World War II era MG 42 universal machine gun that fired the 7.92×57mm Mauser round.</description>
+    <description>Boasts a higher cyclic fire rate than other common Machine Gun designs, but doesn't improve on any of the weaknesses they have.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_MGThree</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -389,7 +389,7 @@
   <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_GlockFLUX</defName>
     <label>G-98</label>
-    <description>The G-98 is a heavily modified spacer gun based on the Glock weapon system, capable of shooting charged ammunition at a high fire rate. Most of the industrial components have been replaced with spacer tech components.</description>
+    <description>Hybrid of spacer and industrial tech, a normal handgun converted to a PDW configuration and retrofitted to fire charge ammunition. Packs a punch for its size.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_GlockFLUX</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -474,7 +474,7 @@
   <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_M16AFour</defName>
     <label>M16A4</label>
-    <description>The M16 entered US military service in 1964 and was first used during the Vietnam War. The M16A4 is the fourth generation of this famous assault rifle which is to this day the most produced 5.56 firearm in the world.</description>
+    <description>Upgraded internals, ergonomic modifications, and better optics than other Assault Rifles make this variant one of the most common choices for Midworld and particularly lucky Rimworld Militaries.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_M16AFour</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -567,7 +567,7 @@
   <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_M2HB</defName>
     <label>M2HB</label>
-    <description>If ain't broke don't fix it, the 50.Cal M2 Browning machine gun has been used since 1930 to this day and has seen extensive use as vehicle weapon and aircraft armament during that time.</description>
+    <description>Traditionally a weapon used in static emplacements and mounted to vehicles, this version has been outfitted to be fired while carried. Doesn't mean it's easy, though.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_M2HB</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -643,7 +643,7 @@
     </tools>
   </ThingDef>
 
-  <!--===== M2HB =====-->
+  <!--===== GreyHawk =====-->
   <!--===== (__________) =====-->
   <ThingDef ParentName="BaseBullet">
     <defName>GN_Bullet_GreyHawk</defName>
@@ -663,7 +663,7 @@
   <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_GreyHawk</defName>
     <label>GreyHawk 55</label>
-    <description>Shooting a big round, the Greyhawk, is a precise single action revolver capable of hitting targets at a longer distance than your regular handgun. This one comes with a long range attached, making it more precise at longer distances, but somewhat heavier and bulkier than other revolvers of its kind.</description>
+    <description>With a scope and a larger caliber, this revolver has a much longer effective range than other revolvers. It is heavier and more unwieldy, however, and not as long ranged as a rifle.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_GreyHawk</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -754,7 +754,7 @@
   <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_AATwelve</defName>
     <label>AA-12</label>
-    <description>The AA-12, originally designed and known as the Atchisson Assault Shotgun, is an automatic combat shotgun developed in 1972. The current version has been developed over 18 years, this AA-12 features a 32 shell drum mag and a more comfortable handguard.</description>
+    <description>Lightweight and featuring an advanced counter recoil system, this weapon is on the bleeding edge of gunpowder-based shotgun systems.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_AATwelve</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -855,7 +855,7 @@
   <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_M202F</defName>
     <label>M202A1</label>
-    <description>The M202 FLASH is an American rocket launcher, designed to replace the World War II flamethrowers. The M202A1 features four tubes that can load 66 mm incendiary rockets. The M74 rockets are equipped with M235 warheads filled with an incendiary agent.</description>
+    <description>Designed as an alternative to traditional flamethrowers and incendiary launchers, this device uses rockets outfitted with incendiary warheads. Great for area denial and burning out infestations or entrenched enemy forces.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_M202F</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -934,7 +934,7 @@
   <!--===== (________)  =====-->
   <ThingDef ParentName="BaseBullet">
     <defName>GN_Bullet_PulseRifle</defName>
-    <label>Pulse rifle caseless bullet</label>
+    <label>USCM M41A caseless bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -948,8 +948,8 @@
 
   <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_PulseRifle</defName>
-    <label>USCM M41A "Pulse Rifle"</label>
-    <description>_</description>
+    <label>USCM M41A</label>
+    <description>Utilizing advanced high caliber caseless ammunition, this lightweight rifle is the bane of aliens and insects everywhere.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_PulseRifle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -1019,10 +1019,10 @@
     </tools>
   </ThingDef>
 
-  <!--===== M4 =====-->  
+  <!--===== M4 US =====-->  
   <ThingDef ParentName="BaseBullet">
     <defName>GN_Bullet_M4US</defName>
-    <label>M4 bullet</label>
+    <label>M4 Carbine bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -1036,8 +1036,8 @@
 
   <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_M4US</defName>
-    <label>M4 "Corp"</label>
-    <description>_</description>
+    <label>M4 Carbine</label>
+    <description>Shorter barrel but same caliber as traditional assault rifles, the lower weight and easier handling make this rifle effective for both line infantry and soldiers who have other things to do or carry, such as radio operators and mortarmen.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_M4US</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -1108,7 +1108,7 @@
   <!--===== (__________) =====-->
   <ThingDef ParentName="BaseBullet">
     <defName>GN_Bullet_M56SG</defName>
-    <label>M56 caseless bullet</label>
+    <label>USCM M56 caseless bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -1122,8 +1122,8 @@
 
   <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_M56SG</defName>
-    <label>M56 "Smartgun"</label>
-    <description>_</description>
+    <label>USCM M56</label>
+    <description>A family of highly advanced HMGs chambered in devastating 10mm caseless ammunition. They actually mount to the armor of the user, allowing the use of their most valuable feature, automatic target acquisition. The onboard computer and servers in the mount can correct the users aim to make hitting the center mass of their target much easier. The system does use infrared cameras to track its targets, so, you know, make sure what you want to shoot has a heat signature.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_M56SG</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -1216,8 +1216,8 @@
 
   <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_M240B</defName>
-    <label>M240B "Bravo"</label>
-    <description>_</description>
+    <label>M240B</label>
+    <description>Another HMG design, equally at home used in static emplacements, mounted on vehicles, or carried around for offensive fire support. Lighter than other HMGs, and more accurate, but with a lower fire rate.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_M240B</texPath>
       <graphicClass>Graphic_Single</graphicClass>

@@ -20,6 +20,9 @@
                     defName = "GN_AATwelve" or
                     defName = "GN_M202F" or
                     defName = "GN_PulseRifle" or
+                    defName = "GN_M240B" or
+                    defName = "GN_M56SG" or
+                    defName = "GN_M4US" or
                     defName = "GN_GalilACE"]/tools
                     </xpath>
                     <value>

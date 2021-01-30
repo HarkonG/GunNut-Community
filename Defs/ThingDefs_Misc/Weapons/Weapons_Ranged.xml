@@ -21,7 +21,7 @@
   <ThingDef ParentName="GN_BaseHumanMakeableGun">
     <defName>GN_PNinety</defName>
     <label>P90</label>
-    <description>Created in response to NATO requests for a replacement for 9×19mm Parabellum firearms, the P90 was designed as a compact but powerful firearm for vehicle crews, operators of crew-served weapons, support personnel, special forces, and counter-terrorist groups.</description>
+    <description>High fire rate and mag capacity for a small and weird looking desing. This PDW was made to pierce common body armor during CQC combat situations.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_PNinety</texPath>
       <graphicClass>Graphic_Single</graphicClass>
