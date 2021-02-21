@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<Defs>    
+<Defs>
     <SoundDef>
         <defName>GN_Shot_SRTwentyFive</defName>
         <context>MapOnly</context>
@@ -14,12 +14,12 @@
                     </li>
                 </grains>
                 <volumeRange>
-                    <min>34.2941</min>
-                    <max>40.2941</max>
+                    <min>25.2941</min>
+                    <max>30.2941</max>
                 </volumeRange>
                 <pitchRange>
-                    <min>1.191765</min>
-                    <max>1.231435</max>
+                    <min>0.936413</min>
+                    <max>1.042391</max>
                 </pitchRange>
                 <sustainLoop>False</sustainLoop>
             </li>
@@ -39,17 +39,17 @@
                     </li>
                 </grains>
                 <volumeRange>
-                    <min>34.2941</min>
-                    <max>40.2941</max>
+                    <min>25.2941</min>
+                    <max>30.2941</max>
                 </volumeRange>
                 <pitchRange>
-                    <min>1.191765</min>
-                    <max>1.231435</max>
+                    <min>0.936413</min>
+                    <max>1.042391</max>
                 </pitchRange>
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
-    </SoundDef>   
+    </SoundDef>
 
     <SoundDef>
         <defName>GN_Shot_ATFour</defName>
@@ -64,12 +64,12 @@
                     </li>
                 </grains>
                 <volumeRange>
-                    <min>34.2941</min>
-                    <max>40.2941</max>
+                    <min>25.2941</min>
+                    <max>30.2941</max>
                 </volumeRange>
                 <pitchRange>
-                    <min>1.191765</min>
-                    <max>1.231435</max>
+                    <min>0.936413</min>
+                    <max>1.042391</max>
                 </pitchRange>
                 <sustainLoop>False</sustainLoop>
             </li>
@@ -89,13 +89,19 @@
                     </li>
                 </grains>
                 <volumeRange>
-                    <min>34.2941</min>
-                    <max>40.2941</max>
+                    <min>25.2941</min>
+                    <max>30.2941</max>
                 </volumeRange>
                 <pitchRange>
-                    <min>1.191765</min>
-                    <max>1.231435</max>
+                    <min>0.936413</min>
+                    <max>1.042391</max>
                 </pitchRange>
+                <filters>
+                    <li Class="SoundFilterLowPass">
+                        <cutoffFrequency>10000</cutoffFrequency>
+                        <lowpassResonaceQ>1</lowpassResonaceQ>
+                    </li>
+                </filters>
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
@@ -114,12 +120,12 @@
                     </li>
                 </grains>
                 <volumeRange>
-                    <min>34.2941</min>
-                    <max>40.2941</max>
+                    <min>25.2941</min>
+                    <max>30.2941</max>
                 </volumeRange>
                 <pitchRange>
-                    <min>1.191765</min>
-                    <max>1.231435</max>
+                    <min>0.936413</min>
+                    <max>1.042391</max>
                 </pitchRange>
                 <sustainLoop>False</sustainLoop>
             </li>
@@ -139,12 +145,12 @@
                     </li>
                 </grains>
                 <volumeRange>
-                    <min>34.2941</min>
-                    <max>40.2941</max>
+                    <min>25.2941</min>
+                    <max>30.2941</max>
                 </volumeRange>
                 <pitchRange>
-                    <min>1.191765</min>
-                    <max>1.231435</max>
+                    <min>0.936413</min>
+                    <max>1.042391</max>
                 </pitchRange>
                 <sustainLoop>False</sustainLoop>
             </li>
@@ -164,17 +170,17 @@
                     </li>
                 </grains>
                 <volumeRange>
-                    <min>34.2941</min>
-                    <max>40.2941</max>
+                    <min>25.2941</min>
+                    <max>30.2941</max>
                 </volumeRange>
                 <pitchRange>
-                    <min>1.191765</min>
-                    <max>1.231435</max>
+                    <min>0.936413</min>
+                    <max>1.042391</max>
                 </pitchRange>
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
-    </SoundDef> 
+    </SoundDef>
 
     <SoundDef>
         <defName>GN_Shot_GreyHawk</defName>
@@ -189,12 +195,12 @@
                     </li>
                 </grains>
                 <volumeRange>
-                    <min>34.2941</min>
-                    <max>40.2941</max>
+                    <min>25.2941</min>
+                    <max>30.2941</max>
                 </volumeRange>
                 <pitchRange>
-                    <min>1.191765</min>
-                    <max>1.231435</max>
+                    <min>0.936413</min>
+                    <max>1.042391</max>
                 </pitchRange>
                 <sustainLoop>False</sustainLoop>
             </li>
@@ -214,17 +220,17 @@
                     </li>
                 </grains>
                 <volumeRange>
-                    <min>34.2941</min>
-                    <max>40.2941</max>
+                    <min>25.2941</min>
+                    <max>30.2941</max>
                 </volumeRange>
                 <pitchRange>
-                    <min>1.191765</min>
-                    <max>1.231435</max>
+                    <min>0.936413</min>
+                    <max>1.042391</max>
                 </pitchRange>
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
-    </SoundDef>         
+    </SoundDef>
 
     <SoundDef>
         <defName>GN_Shot_AATwelve</defName>
@@ -239,17 +245,17 @@
                     </li>
                 </grains>
                 <volumeRange>
-                    <min>34.2941</min>
-                    <max>40.2941</max>
+                    <min>25.2941</min>
+                    <max>30.2941</max>
                 </volumeRange>
                 <pitchRange>
-                    <min>1.191765</min>
-                    <max>1.231435</max>
+                    <min>0.936413</min>
+                    <max>1.042391</max>
                 </pitchRange>
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
-    </SoundDef>    
+    </SoundDef>
 
     <SoundDef>
         <defName>GN_Shot_PulseRifle</defName>
@@ -264,19 +270,19 @@
                     </li>
                 </grains>
                 <volumeRange>
-                    <min>34.2941</min>
-                    <max>40.2941</max>
+                    <min>25.2941</min>
+                    <max>30.2941</max>
                 </volumeRange>
                 <pitchRange>
-                    <min>1.191765</min>
-                    <max>1.231435</max>
+                    <min>0.936413</min>
+                    <max>1.042391</max>
                 </pitchRange>
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
-    </SoundDef>           
+    </SoundDef>
 
-     <SoundDef>
+    <SoundDef>
         <defName>GN_Shot_M240B</defName>
         <context>MapOnly</context>
         <eventNames />
@@ -289,19 +295,19 @@
                     </li>
                 </grains>
                 <volumeRange>
-                    <min>34.2941</min>
-                    <max>40.2941</max>
+                    <min>25.2941</min>
+                    <max>30.2941</max>
                 </volumeRange>
                 <pitchRange>
-                    <min>1.191765</min>
-                    <max>1.231435</max>
+                    <min>0.936413</min>
+                    <max>1.042391</max>
                 </pitchRange>
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
-    </SoundDef>         
+    </SoundDef>
 
-     <SoundDef>
+    <SoundDef>
         <defName>GN_Shot_M56SG</defName>
         <context>MapOnly</context>
         <eventNames />
@@ -314,16 +320,16 @@
                     </li>
                 </grains>
                 <volumeRange>
-                    <min>34.2941</min>
-                    <max>40.2941</max>
+                    <min>25.2941</min>
+                    <max>30.2941</max>
                 </volumeRange>
                 <pitchRange>
-                    <min>1.191765</min>
-                    <max>1.231435</max>
+                    <min>0.936413</min>
+                    <max>1.042391</max>
                 </pitchRange>
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
-    </SoundDef>                        
-        
+    </SoundDef>
+
 </Defs>    

@@ -90,8 +90,9 @@
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageDef>Bullet</damageDef>
 			<speed>185</speed>
-			<dropsCasings>true</dropsCasings>
+			<dropsCasings>false</dropsCasings>
 		</projectile>
+		<thingClass>CombatExtended.BulletCE</thingClass>
 	</ThingDef>
 
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="Base10x28mmCaselessBullet">
