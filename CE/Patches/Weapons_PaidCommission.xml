@@ -388,7 +388,7 @@
                     <statBases>
                         <WorkToMake>20000</WorkToMake>
                         <Mass>1.5</Mass>
-                        <Bulk>10</Bulk>
+                        <Bulk>2.5</Bulk>
                         <SwayFactor>1.27</SwayFactor>
                         <ShotSpread>0.18</ShotSpread>
                         <SightsEfficiency>1.6</SightsEfficiency>
