@@ -36,11 +36,11 @@
 
     <!-- ==================== AT-4 ==================== -->
     <ThingDef ParentName="BaseGun_CE">
-        <defName>GN_ATFour</defName>
+        <defName>HRK_ATFour</defName>
         <label>AT-4</label>
         <description>Lightweight and effective single use rocket launcher, good for destroying emplaced positions or Mechanoid Centipedes.</description>
         <graphicData>
-            <texPath>Things/Weapons/GN_ATFour</texPath>
+            <texPath>Things/Weapons/HRK_ATFour</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
@@ -54,7 +54,7 @@
             <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
         </statBases>
         <thingCategories>
-            <li>GunNut</li>
+            <li>HRK_Category_GunNut</li>
         </thingCategories>
         <weaponTags>
             <li>GunHeavy</li>
@@ -71,7 +71,7 @@
                 <targetParams>
                     <canTargetLocations>true</canTargetLocations>
                 </targetParams>
-                <soundCast>GN_Shot_ATFour</soundCast>
+                <soundCast>HRK_Shot_ATFour</soundCast>
                 <muzzleFlashScale>14</muzzleFlashScale>
             </li>
         </verbs>
@@ -164,7 +164,7 @@
             </thingDefs>
         </fixedIngredientFilter>
         <products>
-            <GN_ATFour>5</GN_ATFour>
+            <HRK_ATFour>5</HRK_ATFour>
         </products>
         <researchPrerequisite>CE_AdvancedLaunchers</researchPrerequisite>
     </RecipeDef>
