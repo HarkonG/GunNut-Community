@@ -450,7 +450,7 @@
   <!--===== (__________) =====-->
   <ThingDef ParentName="BaseBullet">
     <defName>HRK_Bullet_M16AFour</defName>
-    <label>M16A4 bullet</label>
+    <label>M16A4 (custom) bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -464,7 +464,7 @@
 
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
     <defName>HRK_M16AFour</defName>
-    <label>M16A4</label>
+    <label>M16A4 (custom)</label>
     <description>Upgraded internals, ergonomic modifications, and better optics than other Assault Rifles make this variant one of the most common choices for Midworld and particularly lucky Rimworld Militaries.</description>
     <graphicData>
       <texPath>Things/Weapons/HRK_M16AFour</texPath>
