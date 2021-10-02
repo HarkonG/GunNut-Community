@@ -139,7 +139,7 @@
 
 	<!-- ==================== Recipes ========================== -->
 
-	<RecipeDef ParentName="AmmoRecipeBase">
+	<RecipeDef ParentName="ChargeAmmoRecipeBase">
 		<defName>MakeAmmo_10x28mmCaseless_FMJ</defName>
 		<label>make 10x28mm Caseless (FMJ) cartridge x500</label>
 		<description>Craft 500 10x28mm Caseless (FMJ) cartridges.</description>
@@ -163,9 +163,10 @@
 			<Ammo_10x28mmCaseless_FMJ>500</Ammo_10x28mmCaseless_FMJ>
 		</products>
 		<workAmount>1400</workAmount>
+		<researchPrerequisite>HRK_Research_GunNut_Caseless</researchPrerequisite>
 	</RecipeDef>
 
-	<RecipeDef ParentName="AdvancedAmmoRecipeBase">
+	<RecipeDef ParentName="ChargeAmmoRecipeBase">
 		<defName>MakeAmmo_10x28mmCaseless_Incendiary</defName>
 		<label>make 10x28mm Caseless (AP-I) cartridge x500</label>
 		<description>Craft 500 10x28mm Caseless (AP-I) cartridges.</description>
@@ -198,9 +199,10 @@
 			<Ammo_10x28mmCaseless_Incendiary>500</Ammo_10x28mmCaseless_Incendiary>
 		</products>
 		<workAmount>2200</workAmount>
+		<researchPrerequisite>HRK_Research_GunNut_Caseless</researchPrerequisite>
 	</RecipeDef>
 
-	<RecipeDef ParentName="AdvancedAmmoRecipeBase">
+	<RecipeDef ParentName="ChargeAmmoRecipeBase">
 		<defName>MakeAmmo_10x28mmCaseless_HE</defName>
 		<label>make 10x28mm Caseless (HE) cartridge x500</label>
 		<description>Craft 500 10x28mm Caseless (HE) cartridges.</description>
@@ -233,6 +235,7 @@
 			<Ammo_10x28mmCaseless_HE>500</Ammo_10x28mmCaseless_HE>
 		</products>
 		<workAmount>3000</workAmount>
+		<researchPrerequisite>HRK_Research_GunNut_Caseless</researchPrerequisite>
 	</RecipeDef>
 
 </Defs>

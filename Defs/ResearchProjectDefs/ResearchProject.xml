@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+    <ResearchProjectDef>
+        <defName>HRK_Research_GunNut_Caseless</defName>
+        <label>Caseless ammunition</label>
+        <description>Learn to craft the pinnacle of industrial ammunition lighter and cheaper than any old simple cartridge.</description>
+        <baseCost>1000</baseCost>
+        <prerequisites>
+            <li>Fabrication</li>
+        </prerequisites>
+        <hiddenPrerequisites>
+            <li>PrecisionRifling</li>
+        </hiddenPrerequisites>
+        <techLevel>Spacer</techLevel>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <researchViewX>2.00</researchViewX>
+        <researchViewY>0.15</researchViewY>
+        <tab>HRK_ResearchTab_GunNut</tab>
+    </ResearchProjectDef>
+</Defs>

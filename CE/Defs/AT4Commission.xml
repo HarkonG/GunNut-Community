@@ -22,10 +22,7 @@
         <altitudeLayer>Item</altitudeLayer>
         <alwaysHaulable>True</alwaysHaulable>
         <tickerType>Never</tickerType>
-        <techLevel>Industrial</techLevel>
-        <thingCategories>
-            <li>WeaponsRanged</li>
-        </thingCategories>
+        <techLevel>Industrial</techLevel>        
         <comps>
             <li Class="CompProperties_Forbiddable" />
             <li>
@@ -53,7 +50,7 @@
             <Mass>3.0</Mass>
             <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
         </statBases>
-        <thingCategories>
+        <thingCategories Inherit="False">
             <li>HRK_Category_GunNut</li>
         </thingCategories>
         <weaponTags>

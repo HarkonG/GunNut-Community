@@ -2,11 +2,10 @@
 
 <Defs>
 
-  <!--===== SR-25 =====-->
-  <!--===== A semi automatic sniper =====-->
+  <!--===== KAC M110 =====-->
   <ThingDef ParentName="BaseBullet">
     <defName>HRK_Bullet_SRTwentyFive</defName>
-    <label>SR-25 bullet</label>
+    <label>KAC M110 bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -21,7 +20,7 @@
 
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
     <defName>HRK_SRTwentyFive</defName>
-    <label>SR-25</label>
+    <label>KAC M110</label>
     <description>Designed for rapid follow-up shots, this rifle is slightly less accurate than Bolt Action Sniper designs, but the addition of a suppressor ensures this rifle found a place in the armories of anyone who wanted to be a little more discrete.</description>
     <graphicData>
       <texPath>Things/Weapons/HRK_SRTwentyFive</texPath>
@@ -97,7 +96,6 @@
   </ThingDef>
 
   <!--===== Galil ACE =====-->
-  <!--===== (__________) =====-->
   <ThingDef ParentName="BaseBullet">
     <defName>HRK_Bullet_GalilACE</defName>
     <label>Galil ACE bullet</label>
@@ -189,7 +187,6 @@
   </ThingDef>
 
   <!--===== StG 44 =====-->
-  <!--===== (__________) =====-->
   <ThingDef ParentName="BaseBullet">
     <defName>HRK_Bullet_StGFortyFour</defName>
     <label>StG 44 bullet</label>
@@ -232,7 +229,7 @@
       <AccuracyMedium>0.70</AccuracyMedium>
       <AccuracyLong>0.50</AccuracyLong>
       <RangedWeapon_Cooldown>1.00</RangedWeapon_Cooldown>
-    </statBases>    
+    </statBases>
     <costList>
       <Steel>55</Steel>
       <ComponentIndustrial>5</ComponentIndustrial>
@@ -277,10 +274,9 @@
   </ThingDef>
 
   <!--===== MG3 =====-->
-  <!--===== (__________) =====-->
   <ThingDef ParentName="BaseBullet">
     <defName>HRK_Bullet_MGThree</defName>
-    <label>MG 3 bullet</label>
+    <label>MG3 bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -294,7 +290,7 @@
 
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
     <defName>HRK_MGThree</defName>
-    <label>MG 3</label>
+    <label>MG3</label>
     <description>Boasts a higher cyclic fire rate than other common Machine Gun designs, but doesn't improve on any of the weaknesses they have.</description>
     <graphicData>
       <texPath>Things/Weapons/HRK_MGThree</texPath>
@@ -320,7 +316,7 @@
       <AccuracyMedium>0.65</AccuracyMedium>
       <AccuracyLong>0.45</AccuracyLong>
       <RangedWeapon_Cooldown>1.00</RangedWeapon_Cooldown>
-    </statBases>    
+    </statBases>
     <costList>
       <Steel>90</Steel>
       <Chemfuel>5</Chemfuel>
@@ -365,7 +361,6 @@
   </ThingDef>
 
   <!--===== GlockFLUX =====-->
-  <!--===== (__________) =====-->
   <ThingDef ParentName="BaseBullet">
     <defName>HRK_Bullet_GlockFLUX</defName>
     <label>G-98 charge shot</label>
@@ -447,7 +442,6 @@
   </ThingDef>
 
   <!--===== M16A4 =====-->
-  <!--===== (__________) =====-->
   <ThingDef ParentName="BaseBullet">
     <defName>HRK_Bullet_M16AFour</defName>
     <label>M16A4 (custom) bullet</label>
@@ -535,10 +529,9 @@
   </ThingDef>
 
   <!--===== M2HB =====-->
-  <!--===== (__________) =====-->
   <ThingDef ParentName="BaseBullet">
     <defName>HRK_Bullet_M2HB</defName>
-    <label>M2HB bullet</label>
+    <label>Hand-held M2HB bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Big</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -553,7 +546,7 @@
 
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
     <defName>HRK_M2HB</defName>
-    <label>M2HB</label>
+    <label>Hand-held M2HB</label>
     <description>Traditionally a weapon used in static emplacements and mounted to vehicles, this version has been outfitted to be fired while carried. Doesn't mean it's easy, though.</description>
     <graphicData>
       <texPath>Things/Weapons/HRK_M2HB</texPath>
@@ -627,10 +620,9 @@
   </ThingDef>
 
   <!--===== GreyHawk =====-->
-  <!--===== (__________) =====-->
   <ThingDef ParentName="BaseBullet">
     <defName>HRK_Bullet_GreyHawk</defName>
-    <label>GreyHawk bullet</label>
+    <label>GreyHawk 55 bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -713,7 +705,6 @@
   </ThingDef>
 
   <!--===== AA 12 =====-->
-  <!--===== (__________) =====-->
   <ThingDef ParentName="BaseBullet">
     <defName>HRK_Bullet_AATwelve</defName>
     <label>AA-12 blast</label>
@@ -803,7 +794,6 @@
   </ThingDef>
 
   <!--===== M202A1 =====-->
-  <!--===== (__________) =====-->
   <ThingDef ParentName="BaseBullet">
     <defName>HRK_Bullet_M202F</defName>
     <label>M202 incendiary rocket blast</label>
@@ -829,7 +819,7 @@
 
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
     <defName>HRK_M202F</defName>
-    <label>M202A1</label>
+    <label>M202A1 RL</label>
     <description>Designed as an alternative to traditional flamethrowers and incendiary launchers, this device uses rockets outfitted with incendiary warheads. Great for area denial and burning out infestations or entrenched enemy forces.</description>
     <graphicData>
       <texPath>Things/Weapons/HRK_M202F</texPath>
@@ -892,92 +882,6 @@
     </tools>
     <weaponTags>
       <li>GunHeavy</li>
-    </weaponTags>
-  </ThingDef>
-
-  <!--===== Pulse Rifle =====-->
-  <!--===== (________)  =====-->
-  <ThingDef ParentName="BaseBullet">
-    <defName>HRK_Bullet_PulseRifle</defName>
-    <label>USCM M41A caseless bullet</label>
-    <graphicData>
-      <texPath>Things/Projectile/Bullet_Small</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>11</damageAmountBase>
-      <speed>70</speed>
-    </projectile>
-  </ThingDef>
-
-  <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
-    <defName>HRK_PulseRifle</defName>
-    <label>USCM M41A</label>
-    <description>Utilizing advanced high caliber caseless ammunition, this lightweight rifle is the bane of aliens and insects everywhere.</description>
-    <techLevel>Spacer</techLevel>
-    <graphicData>
-      <texPath>Things/Weapons/HRK_PulseRifle</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.0</drawSize>
-    </graphicData>
-    <equippedAngleOffset>45</equippedAngleOffset>
-    <soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>HRK_Research_GunNut</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>7</Crafting>
-      </skillRequirements>
-    </recipeMaker>
-    <statBases>
-      <WorkToMake>50000</WorkToMake>
-      <Mass>3.5</Mass>
-      <AccuracyTouch>0.70</AccuracyTouch>
-      <AccuracyShort>0.70</AccuracyShort>
-      <AccuracyMedium>0.60</AccuracyMedium>
-      <AccuracyLong>0.50</AccuracyLong>
-      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
-    </statBases>
-    <costList>
-      <Steel>65</Steel>
-      <Chemfuel>20</Chemfuel>
-      <ComponentIndustrial>7</ComponentIndustrial>
-    </costList>
-    <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>HRK_Bullet_PulseRifle</defaultProjectile>
-        <warmupTime>1.0</warmupTime>
-        <range>27</range>
-        <burstShotCount>5</burstShotCount>
-        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-        <soundCast>HRK_Shot_PulseRifle</soundCast>
-        <soundCastTail>GunTail_Medium</soundCastTail>
-        <muzzleFlashScale>9</muzzleFlashScale>
-      </li>
-    </verbs>
-    <tools>
-      <li>
-        <label>stock</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>9</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-      <li>
-        <label>barrel</label>
-        <capacities>
-          <li>Blunt</li>
-          <li>Poke</li>
-        </capacities>
-        <power>9</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-    </tools>
-    <weaponTags>
-      <li>SpacerGun</li>
     </weaponTags>
   </ThingDef>
 
@@ -1065,183 +969,269 @@
     </weaponTags>
   </ThingDef>
 
-    <!--===== M56 Smartgun =====-->
-    <!--===== (__________) =====-->
-    <ThingDef ParentName="BaseBullet">
-      <defName>HRK_Bullet_M56SG</defName>
-      <label>USCM M56 caseless bullet</label>
-      <graphicData>
-        <texPath>Things/Projectile/Bullet_Small</texPath>
-        <graphicClass>Graphic_Single</graphicClass>
-      </graphicData>
-      <projectile>
-        <damageDef>Bullet</damageDef>
-        <damageAmountBase>14</damageAmountBase>
-        <speed>80</speed>
-      </projectile>
-    </ThingDef>
+  <!--===== M240B =====-->
+  <ThingDef ParentName="BaseBullet">
+    <defName>HRK_Bullet_M240B</defName>
+    <label>M240B bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>12</damageAmountBase>
+      <armorPenetrationBase>0.5</armorPenetrationBase>
+      <stoppingPower>3</stoppingPower>
+      <speed>40</speed>
+    </projectile>
+  </ThingDef>
 
-    <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
-      <defName>HRK_M56SG</defName>
-      <label>USCM M56</label>
-      <description>A family of highly advanced HMGs chambered in devastating 10mm caseless ammunition. They actually mount to the armor of the user, allowing the use of their most valuable feature, automatic target acquisition. The onboard computer and servers in the mount can correct the users aim to make hitting the center mass of their target much easier. The system does use infrared cameras to track its targets, so, you know, make sure what you want to shoot has a heat signature.</description>
-      <techLevel>Spacer</techLevel>
-      <graphicData>
-        <texPath>Things/Weapons/HRK_M56SG</texPath>
-        <graphicClass>Graphic_Single</graphicClass>
-        <drawSize>1.0</drawSize>
-      </graphicData>
-      <equippedAngleOffset>45</equippedAngleOffset>
-      <soundInteract>Interact_Rifle</soundInteract>
-      <recipeMaker>
-        <recipeUsers>
-          <li>TableMachining</li>
-        </recipeUsers>
-        <researchPrerequisite>HRK_Research_GunNut</researchPrerequisite>
-        <skillRequirements>
-          <Crafting>5</Crafting>
-        </skillRequirements>
-      </recipeMaker>
-      <statBases>
-        <WorkToMake>25000</WorkToMake>
-        <Mass>12</Mass>
-        <AccuracyTouch>0.40</AccuracyTouch>
-        <AccuracyShort>0.55</AccuracyShort>
-        <AccuracyMedium>0.65</AccuracyMedium>
-        <AccuracyLong>0.45</AccuracyLong>
-        <RangedWeapon_Cooldown>1.00</RangedWeapon_Cooldown>
-      </statBases>
-      <costList>
-        <Steel>90</Steel>
-        <Chemfuel>5</Chemfuel>
-        <ComponentIndustrial>7</ComponentIndustrial>
-      </costList>
-      <verbs>
-        <li>
-          <verbClass>Verb_Shoot</verbClass>
-          <hasStandardCommand>true</hasStandardCommand>
-          <defaultProjectile>HRK_Bullet_M56SG</defaultProjectile>
-          <warmupTime>2.1</warmupTime>
-          <range>42</range>
-          <burstShotCount>9</burstShotCount>
-          <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
-          <soundCast>HRK_Shot_M56SG</soundCast>
-          <soundCastTail>GunTail_Medium</soundCastTail>
-          <muzzleFlashScale>9</muzzleFlashScale>
-        </li>
-      </verbs>
-      <tools>
-        <li>
-          <label>stock</label>
-          <capacities>
-            <li>Blunt</li>
-          </capacities>
-          <power>10</power>
-          <cooldownTime>2</cooldownTime>
-        </li>
-        <li>
-          <label>barrel</label>
-          <capacities>
-            <li>Blunt</li>
-            <li>Poke</li>
-          </capacities>
-          <power>9</power>
-          <cooldownTime>2</cooldownTime>
-        </li>
-      </tools>
-      <weaponTags>
-        <li>SpacerGun</li>
-      </weaponTags>
-    </ThingDef>
+  <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
+    <defName>HRK_M240B</defName>
+    <label>M240B</label>
+    <description>Another HMG design, equally at home used in static emplacements, mounted on vehicles, or carried around for offensive fire support. Lighter than other HMGs, and more accurate, but with a lower fire rate.</description>
+    <graphicData>
+      <texPath>Things/Weapons/HRK_M240B</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <recipeMaker>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite>HRK_Research_GunNut</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>44000</WorkToMake>
+      <Mass>9.5</Mass>
+      <AccuracyTouch>0.55</AccuracyTouch>
+      <AccuracyShort>0.65</AccuracyShort>
+      <AccuracyMedium>0.65</AccuracyMedium>
+      <AccuracyLong>0.45</AccuracyLong>
+      <RangedWeapon_Cooldown>2.3</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>80</Steel>
+      <Chemfuel>10</Chemfuel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>HRK_Bullet_M240B</defaultProjectile>
+        <warmupTime>2.4</warmupTime>
+        <range>33</range>
+        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <burstShotCount>7</burstShotCount>
+        <soundCast>HRK_Shot_M240B</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags>
+      <li>GunHeavy</li>
+    </weaponTags>
+  </ThingDef>
 
-    <!--===== M240B =====-->
-    <!--===== 9 =====-->
-    <ThingDef ParentName="BaseBullet">
-      <defName>HRK_Bullet_M240B</defName>
-      <label>M240B bullet</label>
-      <graphicData>
-        <texPath>Things/Projectile/Bullet_big</texPath>
-        <graphicClass>Graphic_Single</graphicClass>
-      </graphicData>
-      <projectile>
-        <damageDef>Bullet</damageDef>
-        <damageAmountBase>12</damageAmountBase>
-        <armorPenetrationBase>0.5</armorPenetrationBase>
-        <stoppingPower>3</stoppingPower>
-        <speed>40</speed>
-      </projectile>
-    </ThingDef>
+  <!--===== Pulse Rifle =====-->
+  <ThingDef ParentName="BaseBullet">
+    <defName>HRK_Bullet_PulseRifle</defName>
+    <label>M41A Pulse Rifle caseless bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>11</damageAmountBase>
+      <speed>70</speed>
+    </projectile>
+  </ThingDef>
 
-    <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
-      <defName>HRK_M240B</defName>
-      <label>M240B</label>
-      <description>Another HMG design, equally at home used in static emplacements, mounted on vehicles, or carried around for offensive fire support. Lighter than other HMGs, and more accurate, but with a lower fire rate.</description>
-      <graphicData>
-        <texPath>Things/Weapons/HRK_M240B</texPath>
-        <graphicClass>Graphic_Single</graphicClass>
-        <drawSize>1.0</drawSize>
-      </graphicData>
-      <equippedAngleOffset>45</equippedAngleOffset>
-      <soundInteract>Interact_Rifle</soundInteract>
-      <recipeMaker>
-        <recipeUsers>
-          <li>TableMachining</li>
-        </recipeUsers>
-        <researchPrerequisite>HRK_Research_GunNut</researchPrerequisite>
-        <skillRequirements>
-          <Crafting>7</Crafting>
-        </skillRequirements>
-      </recipeMaker>
-      <statBases>
-        <WorkToMake>44000</WorkToMake>
-        <Mass>9.5</Mass>
-        <AccuracyTouch>0.55</AccuracyTouch>
-        <AccuracyShort>0.65</AccuracyShort>
-        <AccuracyMedium>0.65</AccuracyMedium>
-        <AccuracyLong>0.45</AccuracyLong>
-        <RangedWeapon_Cooldown>2.3</RangedWeapon_Cooldown>
-      </statBases>
-      <costList>
-        <Steel>80</Steel>
-        <Chemfuel>10</Chemfuel>
-        <ComponentIndustrial>6</ComponentIndustrial>
-      </costList>
-      <verbs>
-        <li>
-          <verbClass>Verb_Shoot</verbClass>
-          <hasStandardCommand>true</hasStandardCommand>
-          <defaultProjectile>HRK_Bullet_M240B</defaultProjectile>
-          <warmupTime>2.4</warmupTime>
-          <range>33</range>
-          <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-          <burstShotCount>7</burstShotCount>
-          <soundCast>HRK_Shot_M240B</soundCast>
-          <soundCastTail>GunTail_Medium</soundCastTail>
-          <muzzleFlashScale>9</muzzleFlashScale>
-        </li>
-      </verbs>
-      <tools>
-        <li>
-          <label>stock</label>
-          <capacities>
-            <li>Blunt</li>
-          </capacities>
-          <power>12</power>
-          <cooldownTime>2</cooldownTime>
-        </li>
-        <li>
-          <label>barrel</label>
-          <capacities>
-            <li>Blunt</li>
-            <li>Poke</li>
-          </capacities>
-          <power>9</power>
-          <cooldownTime>2</cooldownTime>
-        </li>
-      </tools>
-      <weaponTags>
-        <li>GunHeavy</li>
-      </weaponTags>
-    </ThingDef>
+  <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
+    <defName>HRK_PulseRifle</defName>
+    <label>M41A Pulse Rifle</label>
+    <description>Utilizing advanced high caliber caseless ammunition, this lightweight rifle is the bane of aliens and insects everywhere.</description>
+    <techLevel>Spacer</techLevel>
+    <graphicData>
+      <texPath>Things/Weapons/HRK_PulseRifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+      <researchPrerequisite>HRK_Research_GunNut_Caseless</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>50000</WorkToMake>
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.70</AccuracyTouch>
+      <AccuracyShort>0.70</AccuracyShort>
+      <AccuracyMedium>0.60</AccuracyMedium>
+      <AccuracyLong>0.50</AccuracyLong>
+      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>65</Steel>
+      <Chemfuel>20</Chemfuel>
+      <ComponentIndustrial>7</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>HRK_Bullet_PulseRifle</defaultProjectile>
+        <warmupTime>1.0</warmupTime>
+        <range>27</range>
+        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <soundCast>HRK_Shot_PulseRifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags>
+      <li>SpacerGun</li>
+    </weaponTags>
+  </ThingDef>
 
-  </Defs>
+  <!--===== M56 Smartgun =====-->
+  <ThingDef ParentName="BaseBullet">
+    <defName>HRK_Bullet_M56SG</defName>
+    <label>M56 Smart Gun caseless bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>14</damageAmountBase>
+      <speed>80</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
+    <defName>HRK_M56SG</defName>
+    <label>M56 Smart Gun</label>
+    <description>A family of highly advanced HMGs chambered in devastating 10mm caseless ammunition. They actually mount to the armor of the user, allowing the use of their most valuable feature, automatic target acquisition. The onboard computer and servers in the mount can correct the users aim to make hitting the center mass of their target much easier. The system does use infrared cameras to track its targets, so, you know, make sure what you want to shoot has a heat signature.</description>
+    <techLevel>Spacer</techLevel>
+    <graphicData>
+      <texPath>Things/Weapons/HRK_M56SG</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <recipeMaker>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+      <researchPrerequisite>HRK_Research_GunNut_Caseless</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>25000</WorkToMake>
+      <Mass>12</Mass>
+      <AccuracyTouch>0.40</AccuracyTouch>
+      <AccuracyShort>0.55</AccuracyShort>
+      <AccuracyMedium>0.65</AccuracyMedium>
+      <AccuracyLong>0.45</AccuracyLong>
+      <RangedWeapon_Cooldown>1.00</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>90</Steel>
+      <Chemfuel>5</Chemfuel>
+      <ComponentIndustrial>7</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>HRK_Bullet_M56SG</defaultProjectile>
+        <warmupTime>2.1</warmupTime>
+        <range>42</range>
+        <burstShotCount>9</burstShotCount>
+        <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+        <soundCast>HRK_Shot_M56SG</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags>
+      <li>SpacerGun</li>
+    </weaponTags>
+  </ThingDef>
+
+</Defs>
