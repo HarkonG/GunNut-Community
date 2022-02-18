@@ -6,14 +6,6 @@
         </mods>
         <match Class="PatchOperationSequence">
             <operations>
-                <li Class="PatchOperationAddModExtension">
-                    <xpath>/Defs/ThingDef[defName="HRK_MPSevenAOne"] </xpath>
-                    <value>
-                        <li Class="VFECore.ThingDefExtension">
-                            <usableWithShields>true</usableWithShields>
-                        </li>
-                    </value>
-                </li>
 
                 <li Class="PatchOperationAddModExtension">
                     <xpath>/Defs/ThingDef[defName="HRK_GlockFLUX"] </xpath>
@@ -32,6 +24,7 @@
                         </li>
                     </value>
                 </li>
+
             </operations>
         </match>
     </Operation>
