@@ -286,6 +286,7 @@
                     </FireModes>
                     <weaponTags>
                         <li>SpacerGun</li>
+                        <li>CE_OneHandedWeapon</li>
                     </weaponTags>
                 </li>
 
