@@ -82,7 +82,7 @@
 
 	<!-- ================== Projectiles ================== -->
 
-	<ThingDef Class="CombatExtended.AmmoDef" Name="Base10x28mmCaselessBullet" ParentName="BaseBullet" Abstract="true">
+	<ThingDef Name="Base10x28mmCaselessBullet" ParentName="BaseBullet" Abstract="true">
 		<graphicData>
 			<texPath>Things/Projectile/Bullet_Small</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -91,11 +91,10 @@
 			<damageDef>Bullet</damageDef>
 			<speed>185</speed>
 			<dropsCasings>false</dropsCasings>
-		</projectile>
-		<thingClass>CombatExtended.BulletCE</thingClass>
+		</projectile>		
 	</ThingDef>
 
-	<ThingDef Class="CombatExtended.AmmoDef" ParentName="Base10x28mmCaselessBullet">
+	<ThingDef ParentName="Base10x28mmCaselessBullet">
 		<defName>Bullet_10x28mmCaseless_FMJ</defName>
 		<label>10x28mm caseless bullet (FMJ)</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
@@ -105,7 +104,7 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef Class="CombatExtended.AmmoDef" ParentName="Base10x28mmCaselessBullet">
+	<ThingDef ParentName="Base10x28mmCaselessBullet">
 		<defName>Bullet_10x28mmCaseless_Incendiary</defName>
 		<label>10x28mm caseless bullet (AP-I)</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
@@ -121,7 +120,7 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef Class="CombatExtended.AmmoDef" ParentName="Base10x28mmCaselessBullet">
+	<ThingDef ParentName="Base10x28mmCaselessBullet">
 		<defName>Bullet_10x28mmCaseless_HE</defName>
 		<label>10x28mm caseless bullet (HE)</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
