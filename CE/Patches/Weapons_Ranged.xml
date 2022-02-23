@@ -99,6 +99,7 @@
                     </FireModes>
                     <weaponTags>
                         <li>CE_AI_Rifle</li>
+                        <li>Bipod_DMR</li>
                     </weaponTags>
                 </li>
 
@@ -240,6 +241,7 @@
                     <weaponTags>
                         <li>CE_MachineGun</li>
                         <li>CE_AI_Suppressive</li>
+                        <li>Bipod_LMG</li>
                     </weaponTags>
                 </li>
 
@@ -695,6 +697,7 @@
                     </FireModes>
                     <weaponTags>
                         <li>CE_MachineGun</li>
+                        <li>Bipod_LMG</li>
                     </weaponTags>
                 </li>
 
