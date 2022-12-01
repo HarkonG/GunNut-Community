@@ -17,10 +17,6 @@
                     <min>25.2941</min>
                     <max>30.2941</max>
                 </volumeRange>
-                <pitchRange>
-                    <min>0.936413</min>
-                    <max>1.042391</max>
-                </pitchRange>
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
@@ -42,10 +38,6 @@
                     <min>25.2941</min>
                     <max>30.2941</max>
                 </volumeRange>
-                <pitchRange>
-                    <min>0.936413</min>
-                    <max>1.042391</max>
-                </pitchRange>
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
@@ -67,10 +59,6 @@
                     <min>25.2941</min>
                     <max>30.2941</max>
                 </volumeRange>
-                <pitchRange>
-                    <min>0.936413</min>
-                    <max>1.042391</max>
-                </pitchRange>
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
@@ -92,10 +80,6 @@
                     <min>25.2941</min>
                     <max>30.2941</max>
                 </volumeRange>
-                <pitchRange>
-                    <min>0.936413</min>
-                    <max>1.042391</max>
-                </pitchRange>
                 <filters>
                     <li Class="SoundFilterLowPass">
                         <cutoffFrequency>10000</cutoffFrequency>
@@ -123,10 +107,6 @@
                     <min>25.2941</min>
                     <max>30.2941</max>
                 </volumeRange>
-                <pitchRange>
-                    <min>0.936413</min>
-                    <max>1.042391</max>
-                </pitchRange>
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
@@ -148,10 +128,6 @@
                     <min>25.2941</min>
                     <max>30.2941</max>
                 </volumeRange>
-                <pitchRange>
-                    <min>0.936413</min>
-                    <max>1.042391</max>
-                </pitchRange>
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
@@ -170,13 +146,9 @@
                     </li>
                 </grains>
                 <volumeRange>
-                    <min>25.2941</min>
-                    <max>30.2941</max>
+                    <min>15.2941</min>
+                    <max>25.2941</max>
                 </volumeRange>
-                <pitchRange>
-                    <min>0.936413</min>
-                    <max>1.042391</max>
-                </pitchRange>
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
@@ -198,10 +170,6 @@
                     <min>25.2941</min>
                     <max>30.2941</max>
                 </volumeRange>
-                <pitchRange>
-                    <min>0.936413</min>
-                    <max>1.042391</max>
-                </pitchRange>
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
@@ -223,10 +191,6 @@
                     <min>25.2941</min>
                     <max>30.2941</max>
                 </volumeRange>
-                <pitchRange>
-                    <min>0.936413</min>
-                    <max>1.042391</max>
-                </pitchRange>
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
@@ -248,10 +212,6 @@
                     <min>25.2941</min>
                     <max>30.2941</max>
                 </volumeRange>
-                <pitchRange>
-                    <min>0.936413</min>
-                    <max>1.042391</max>
-                </pitchRange>
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
@@ -273,10 +233,6 @@
                     <min>25.2941</min>
                     <max>30.2941</max>
                 </volumeRange>
-                <pitchRange>
-                    <min>0.936413</min>
-                    <max>1.042391</max>
-                </pitchRange>
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
@@ -298,10 +254,6 @@
                     <min>25.2941</min>
                     <max>30.2941</max>
                 </volumeRange>
-                <pitchRange>
-                    <min>0.936413</min>
-                    <max>1.042391</max>
-                </pitchRange>
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
@@ -323,10 +275,6 @@
                     <min>25.2941</min>
                     <max>30.2941</max>
                 </volumeRange>
-                <pitchRange>
-                    <min>0.936413</min>
-                    <max>1.042391</max>
-                </pitchRange>
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>

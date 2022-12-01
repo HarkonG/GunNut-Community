@@ -360,7 +360,7 @@
     </weaponTags>
   </ThingDef>
 
-  <!--===== GlockFLUX =====-->
+  <!--===== GlockFLUX =====
   <ThingDef ParentName="BaseBullet">
     <defName>HRK_Bullet_GlockFLUX</defName>
     <label>G-98 charge shot</label>
@@ -439,7 +439,7 @@
     <weaponTags>
       <li>SpacerGun</li>
     </weaponTags>
-  </ThingDef>
+  </ThingDef>-->
 
   <!--===== M16A4 =====-->
   <ThingDef ParentName="BaseBullet">
@@ -619,7 +619,7 @@
     </weaponTags>
   </ThingDef>
 
-  <!--===== GreyHawk =====-->
+  <!--===== GreyHawk =====
   <ThingDef ParentName="BaseBullet">
     <defName>HRK_Bullet_GreyHawk</defName>
     <label>GreyHawk 55 bullet</label>
@@ -702,7 +702,7 @@
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
     </weaponTags>
-  </ThingDef>
+  </ThingDef>-->
 
   <!--===== AA 12 =====-->
   <ThingDef ParentName="BaseBullet">
@@ -819,16 +819,12 @@
 
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
     <defName>HRK_M202F</defName>
-    <label>M202A1 RL</label>
+    <label>M202A1 FLASH</label>
     <description>Designed as an alternative to traditional flamethrowers and incendiary launchers, this device uses rockets outfitted with incendiary warheads. Great for area denial and burning out infestations or entrenched enemy forces.</description>
     <graphicData>
       <texPath>Things/Weapons/HRK_M202F</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.0</drawSize>
-      <drawOffsetNorth>(0.0, 0.0, 0.0)</drawOffsetNorth>
-      <drawOffsetEast>(-0.4, 0.0, 0.0)</drawOffsetEast>
-      <drawOffsetSouth>(0.0, 0.0, 0.0)</drawOffsetSouth>
-      <drawOffsetWest>(0.4, 0.0, 0.0)</drawOffsetWest>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>

@@ -12,11 +12,9 @@
 				    /Defs/ThingDef[					
                     defName = "HRK_SRTwentyFive" or
                     defName = "HRK_StGFortyFour" or
-                    defName = "HRK_MGThree" or
-                    defName = "HRK_GlockFLUX" or
+                    defName = "HRK_MGThree" or                                            
                     defName = "HRK_M16AFour" or
-                    defName = "HRK_M2HB" or
-                    defName = "HRK_GreyHawk" or
+                    defName = "HRK_M2HB" or                                            
                     defName = "HRK_AATwelve" or
                     defName = "HRK_M202F" or
                     defName = "HRK_PulseRifle" or
@@ -245,7 +243,7 @@
                     </weaponTags>
                 </li>
 
-                <!--===== G-98 =====-->
+                <!--===== G-98 =====
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                     <defName>HRK_GlockFLUX</defName>
                     <statBases>
@@ -290,7 +288,7 @@
                         <li>SpacerGun</li>
                         <li>CE_OneHandedWeapon</li>
                     </weaponTags>
-                </li>
+                </li>-->
 
                 <!--===== M16A4 =====-->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
@@ -385,7 +383,7 @@
                     </weaponTags>
                 </li>
 
-                <!--===== GreyHawk =====-->
+                <!--===== GreyHawk =====
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                     <defName>HRK_GreyHawk</defName>
                     <statBases>
@@ -425,7 +423,7 @@
                         <li>CE_AI_Pistol</li>
                         <li>CE_OneHandedWeapon</li>
                     </weaponTags>
-                </li>
+                </li>-->
 
                 <!--===== AA 12 =====-->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
