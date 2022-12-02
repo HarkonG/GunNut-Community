@@ -22,7 +22,7 @@
         <altitudeLayer>Item</altitudeLayer>
         <alwaysHaulable>True</alwaysHaulable>
         <tickerType>Never</tickerType>
-        <techLevel>Industrial</techLevel>        
+        <techLevel>Industrial</techLevel>
         <comps>
             <li Class="CompProperties_Forbiddable" />
             <li>
@@ -134,7 +134,7 @@
                         <li>Steel</li>
                     </thingDefs>
                 </filter>
-                <count>30</count>
+                <count>50</count>
             </li>
             <li>
                 <filter>
@@ -165,4 +165,5 @@
         </products>
         <researchPrerequisite>CE_AdvancedLaunchers</researchPrerequisite>
     </RecipeDef>
+
 </Defs>
