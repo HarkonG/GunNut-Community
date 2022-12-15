@@ -3,7 +3,7 @@
 <Defs>
     <ResearchProjectDef>
         <defName>HRK_Research_GunNut_Caseless</defName>
-        <label>Caseless ammunition</label>
+        <label>caseless ammunition</label>
         <description>Learn to craft the pinnacle of industrial ammunition lighter and cheaper than any older cartridge.</description>
         <baseCost>1000</baseCost>
         <prerequisites>
@@ -17,8 +17,8 @@
         <requiredResearchFacilities>
             <li>MultiAnalyzer</li>
         </requiredResearchFacilities>
-        <researchViewX>2.00</researchViewX>
-        <researchViewY>0.15</researchViewY>
+        <researchViewX>10.00</researchViewX>
+        <researchViewY>0.70</researchViewY>
         <tab>HRK_ResearchTab_Gunsmithing</tab>
     </ResearchProjectDef>
 </Defs>
