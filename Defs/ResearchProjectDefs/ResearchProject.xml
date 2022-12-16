@@ -8,6 +8,7 @@
         <baseCost>1000</baseCost>
         <prerequisites>
             <li>Fabrication</li>
+            <li MayRequire="CETeam.CombatExtended">CE_AdvancedAmmo</li>
         </prerequisites>
         <hiddenPrerequisites>
             <li>PrecisionRifling</li>
@@ -17,8 +18,8 @@
         <requiredResearchFacilities>
             <li>MultiAnalyzer</li>
         </requiredResearchFacilities>
-        <researchViewX>10.00</researchViewX>
-        <researchViewY>0.70</researchViewY>
+        <researchViewX>7</researchViewX>
+        <researchViewY>0</researchViewY>
         <tab>HRK_ResearchTab_Gunsmithing</tab>
     </ResearchProjectDef>
 </Defs>
