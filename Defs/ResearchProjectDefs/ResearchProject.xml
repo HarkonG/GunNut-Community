@@ -18,8 +18,8 @@
         <requiredResearchFacilities>
             <li>MultiAnalyzer</li>
         </requiredResearchFacilities>
-        <researchViewX>7</researchViewX>
-        <researchViewY>0</researchViewY>
+        <researchViewX>0.70</researchViewX>
+        <researchViewY>0.70</researchViewY>
         <tab>HRK_ResearchTab_Gunsmithing</tab>
     </ResearchProjectDef>
 </Defs>
