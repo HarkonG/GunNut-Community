@@ -62,34 +62,7 @@
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
-    </SoundDef>
-
-    <SoundDef>
-        <defName>HRK_Shot_StGFortyFour</defName>
-        <context>MapOnly</context>
-        <eventNames />
-        <maxSimultaneous>1</maxSimultaneous>
-        <subSounds>
-            <li>
-                <grains>
-                    <li Class="AudioGrain_Clip">
-                        <clipPath>Weapons/HRK_Shot_StGFortyFour</clipPath>
-                    </li>
-                </grains>
-                <volumeRange>
-                    <min>25.2941</min>
-                    <max>30.2941</max>
-                </volumeRange>
-                <filters>
-                    <li Class="SoundFilterLowPass">
-                        <cutoffFrequency>10000</cutoffFrequency>
-                        <lowpassResonaceQ>1</lowpassResonaceQ>
-                    </li>
-                </filters>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
+    </SoundDef>    
 
     <SoundDef>
         <defName>HRK_Shot_MGThree</defName>

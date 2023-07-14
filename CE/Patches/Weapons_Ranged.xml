@@ -5,8 +5,7 @@
     <Operation Class="PatchOperationReplace">
         <xpath>
 				    /Defs/ThingDef[					
-                    defName = "HRK_SRTwentyFive" or
-                    defName = "HRK_StGFortyFour" or
+                    defName = "HRK_SRTwentyFive" or                    
                     defName = "HRK_MGThree" or                                            
                     defName = "HRK_M16AFour" or
                     defName = "HRK_M2HB" or                                            
@@ -139,52 +138,7 @@
         <weaponTags>
             <li>CE_AI_AssaultWeapon</li>
         </weaponTags>
-    </Operation>
-
-    <!--===== StG 44 =====-->
-    <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
-        <defName>HRK_StGFortyFour</defName>
-        <statBases>
-            <WorkToMake>20000</WorkToMake>
-            <Mass>4.6</Mass>
-            <Bulk>9.35</Bulk>
-            <SwayFactor>1.40</SwayFactor>
-            <ShotSpread>0.08</ShotSpread>
-            <SightsEfficiency>1.00</SightsEfficiency>
-            <RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
-        </statBases>
-        <costList>
-            <Steel>59</Steel>
-            <ComponentIndustrial>5</ComponentIndustrial>
-            <WoodLog>5</WoodLog>
-        </costList>
-        <Properties>
-            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
-            <hasStandardCommand>True</hasStandardCommand>
-            <defaultProjectile>Bullet_792x33mmKurz_FMJ</defaultProjectile>
-            <burstShotCount>6</burstShotCount>
-            <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-            <warmupTime>1.1</warmupTime>
-            <range>48</range>
-            <soundCast>HRK_Shot_StGFortyFour</soundCast>
-            <soundCastTail>GunTail_Medium</soundCastTail>
-            <muzzleFlashScale>9</muzzleFlashScale>
-            <recoilAmount>1.54</recoilAmount>
-        </Properties>
-        <AmmoUser>
-            <magazineSize>30</magazineSize>
-            <reloadTime>4</reloadTime>
-            <ammoSet>AmmoSet_792x33mmKurz</ammoSet>
-        </AmmoUser>
-        <FireModes>
-            <aiAimMode>AimedShot</aiAimMode>
-            <aiUseBurstMode>True</aiUseBurstMode>
-            <aimedBurstShotCount>3</aimedBurstShotCount>
-        </FireModes>
-        <weaponTags>
-            <li>CE_AI_Rifle</li>
-        </weaponTags>
-    </Operation>
+    </Operation>    
 
     <!--===== MG3 =====-->
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
