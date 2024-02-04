@@ -4,7 +4,7 @@
     <SoundDef>
         <defName>HRK_Shot_SRTwentyFive</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -25,7 +25,7 @@
     <SoundDef>
         <defName>HRK_Shot_GalilACE</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -46,7 +46,7 @@
     <SoundDef>
         <defName>HRK_Shot_ATFour</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -67,7 +67,7 @@
     <SoundDef>
         <defName>HRK_Shot_MGThree</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -88,7 +88,7 @@
     <SoundDef>
         <defName>HRK_Shot_GlockFLUX</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -109,7 +109,7 @@
     <SoundDef>
         <defName>HRK_Shot_M2HB</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -130,7 +130,7 @@
     <SoundDef>
         <defName>HRK_Shot_GreyHawk</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -151,7 +151,7 @@
     <SoundDef>
         <defName>HRK_Shot_M202F</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -172,7 +172,7 @@
     <SoundDef>
         <defName>HRK_Shot_AATwelve</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -193,7 +193,7 @@
     <SoundDef>
         <defName>HRK_Shot_PulseRifle</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -214,7 +214,7 @@
     <SoundDef>
         <defName>HRK_Shot_M240B</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -235,7 +235,7 @@
     <SoundDef>
         <defName>HRK_Shot_M56SG</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>

@@ -24,7 +24,7 @@
         <tickerType>Never</tickerType>
         <techLevel>Industrial</techLevel>
         <comps>
-            <li Class="CompProperties_Forbiddable" />
+            <li Class="CompProperties_Forbiddable"/>
             <li>
                 <compClass>CompEquippable</compClass>
             </li>
